@@ -50,14 +50,14 @@ The course language is English.
 
 ## Learning Objectives
 
-<!--style="color: #124061; font-family: Arial; font-size: 14pt;" -->
+
 __Learning Objective Matrix on the Topic of Research Data Management (RDM)__
 
 The course creators of WiNoDa Knowledge lab used the **Learning Objective Matrix on the Topic of Research Data Management (RDM)** (from here on: LOM-RDM) as a basis the for the creation of OER. Learning objectives from the LOM-RDM can be identified by their unique identfier: Subject-ID_Topic-ID-sequential-number.
 
 ---
 
-Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Learning Objectives Matrix on the Topic of Research Data Management (RDM). Zenodo. [https://doi.org/10.5281/zenodo.15846806](https://doi.org/10.5281/zenodo.15846806)
+> Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Learning Objectives Matrix on the Topic of Research Data Management (RDM). Zenodo. [https://doi.org/10.5281/zenodo.15846806](https://doi.org/10.5281/zenodo.15846806)
 
 ---
 
@@ -84,14 +84,14 @@ Thus, the generic LOM-RDM remains a stable reference framework for the creation 
 
 ---
 
-XXXX hier unsere LZM zitieren.
+> XXXX hier unsere LZM zitieren.
 
 ---
 
-<!-- style="color: #124061; font-family: Arial; font-size: 14pt;" -->
+
 __Learning Objectives for this course__
 
-**LO-ID | Complete Learning Objective**  
+<!--- **LO-ID | Complete Learning Objective**  --->
 
 **Chapter 1** | **Why should we enrich data?**
 - **02\_011\_0412** | Learners are able to explain the term data integration.
@@ -166,8 +166,8 @@ You all want to make existing data more useful by connecting it to other informa
 What is data integration?  
 </h3>
 --->
-
-### <span style="display:flex;gap:18px;margin-bottom:24px;color:#124061;flex: none;">
+### What is data integration?  
+<span style="display:flex;gap:18px;margin-bottom:24px;color:#124061;flex: none;">
 ![Kai](images/Kai_circle.png)
 What is data integration?  
 </span>
@@ -241,3 +241,85 @@ There is inevitably some overlap between these terms. It can be useful to distin
 
 **Data contextualisation** connects data to information in order to help us understand its meaning, relationships and wider context.
 
+## Quiz
+
+<!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
+{{1}}
+**Which example best illustrates data enrichment?**
+
+- [[ ]] A. Connecting a museum specimen record with an external taxonomic database so that information from both sources can be used together.
+- [[x]] B. Adding a persistent identifier and a standardised species name to an existing museum specimen record.
+- [[ ]] C. Connecting an archaeological find with the excavation site, associated finds and relevant publications.
+- [[ ]] D. Combining records from several databases into a single integrated research database.
+
+[[?]] Correct: adding identifiers and standardised information makes an existing record more complete and useful.  
+A and D primarily describe data integration. C describes contextualisation.
+
+---
+
+<!--- ### Question 2 — 02_011_0412_Mulitple-Choice_2 --->
+{{2}}
+**A museum has specimen records, an external taxonomic database and an observation database. The museum connects records from all three sources using persistent identifiers so that users can navigate between them. What is this primarily an example of?**
+
+- [[ ]] A. Data enrichment
+- [[ ]] B. Data contextualisation
+- [[x]] C. Data integration
+- [[ ]] D. Data cleaning
+
+[[?]] Correct: information from different sources is being connected so that it can be used together.  
+Enrichment may take place as part of this process, but the defining feature here is the integration of different sources.
+
+---
+
+<!--- ### Question 3 — 02_011_0412_Mulitple-Choice_3 --->
+{{3}}
+**An archaeologist has a record for a bone fragment. She links it to the excavation site, the archaeological layer where it was found, other objects found in the same layer and publications discussing the site. What is the main purpose of these connections?**
+
+- [[ ]] A. To enrich the record with additional information
+- [[x]] B. To contextualise the find by showing its wider relationships and background
+- [[ ]] C. To integrate several databases into one physical database
+- [[ ]] D. To standardise the spelling of the object's name
+
+[[?]] Correct: the connections help the researcher understand the find in relation to its archaeological context. The other activities can be useful, but they are not the main purpose described here.
+
+---
+
+<!--- ### Question 4 — 02_011_0412_True-False --->
+{{4}}
+**True or false?**
+
+> Adding a persistent identifier to an existing record can be an example of data enrichment, even though that identifier may subsequently be used to integrate the record with other datasets.
+
+- [[x]]True
+- [[ ]] False
+
+[[?]] Adding the identifier enriches the existing record. If the identifier is then used to connect that record with information from other sources, it can also contribute to data integration. The concepts can therefore overlap.
+
+---
+
+<!--- ### Question 5 — 02_011_0412_Drag-the-Words 
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
+--->
+{{5}}
+**For each example, choose the concept that best describes its primary purpose. Remember that the three concepts can overlap.**
+
+<div class="Kachel">
+
+<!-- data-randomize="true" -->
+
+1. A researcher adds the country code and geographic coordinates to historical specimen records.  
+   [->[Data contextualisation|(Data enrichment)|Data integration]]
+
+2. A museum connects its catalogue with an external database of digitised historical photographs, allowing users to move between the object record and the corresponding images.  
+   [->[Data enrichment|(Data integration)|Data contextualisation]]
+
+3. A researcher links a historical manuscript to the people, institution and historical event mentioned in it to better understand its significance.  
+   [->[Data integration|(Data contextualisation)|Data enrichment]]
+
+4. A data steward adds standardised language codes to records containing descriptions in several languages.  
+   [->[Data contextualisation|Data integration|(Data enrichment)]]
+
+5. A researcher connects datasets from several laboratories so that measurements referring to the same research samples can be analysed together.  
+   [->[Data contextualisation|(Data integration)|Data enrichment]]
+
+</div>
