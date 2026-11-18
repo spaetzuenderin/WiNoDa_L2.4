@@ -2,7 +2,7 @@
 author:   Asta von Schröder
 author:   Anna Lisa Schwartz
 email:    asta.vonschroeder@dainst.de
-
+email:    alschwartz@gfbio.org
 version:  0.0.1
 
 language: en
@@ -12,6 +12,8 @@ narrator: English Female
 comment:  ein Test für WiNoDa Kurslayout
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+
+link:    
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 -->
@@ -160,14 +162,14 @@ You all want to make existing data more useful by connecting it to other informa
 
 ## 1. Data integration, enrichment and contextualisation 
 
-<!---
-<h3 style="display:flex;gap:18px;margin-bottom:24px;color:#124061;flex: none;">
-<img src="images/Kai_circle.png" alt="Kai" style="flex:none">
-What is data integration?  
-</h3>
---->
-### What is data integration?  
-<span style="display:flex;gap:18px;margin-bottom:24px;color:#124061;flex: none;">
+hier vielleicht noch irgendein Bild einfügen, weil die Seite sonst leer aussieht.
+
+oder die Learning objectives?
+
+
+### What is data integration? 
+
+<span style="display:flex;gap:1em;margin-bottom:1.5em;color:#124061;font-size:1.5em;font-weight:bold;flex-start;">
 ![Kai](images/Kai_circle.png)
 What is data integration?  
 </span>
