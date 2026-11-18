@@ -13,9 +13,33 @@ comment:  ein Test für WiNoDa Kurslayout
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
-link:    https://github.com/spaetzuenderin/WiNoDa_L2.4/blob/main/WiNoDa_LiaScript.css
+link:     https://cdn.jsdelivr.net/gh/spaetzuenderin/WiNoDa_L2.4@main/WiNoDa_LiaScript-Style.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+
+
+
+@Anita: <div class="persona persona--anita"><span class="persona__image">![Anita](images/Anita_circle.png)</span><div>@0</div></div>
+
+@Dave: <div class="persona persona--dave"><span class="persona__image">![Dave](images/Dave_circle.png)</span><div>@0</div></div>
+
+@Kai: <div class="persona persona--kai"><span class="persona__image">![Kai](images/Kai_circle.png)</span><div>@0</div></div>
+
+@Susan: <div class="persona persona--susan"><span class="persona__image">![Susan](images/Susan_circle.png)</span><div>@0</div></div>
+
+@Winnie: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_circle.png)</span><div>@0</div></div>
+
+@AnitaH: <div class="persona persona--anita"><span class="persona__image">![Anita](images/Anita_circle.png)</span><div class="persona__heading">@0</div></div>
+
+@DaveH: <div class="persona persona--dave"><span class="persona__image">![Dave](images/Dave_circle.png)</span><div class="persona__heading">@0</div></div>
+
+@KaiH: <div class="persona persona--kai"><span class="persona__image">![Kai](images/Kai_circle.png)</span><div>@0</div class="persona__heading"></div>
+
+@SusanH: <div class="persona persona--susan"><span class="persona__image">![Susan](images/Susan_circle.png)</span><div class="persona__heading">@0</div></div>
+
+@WinnieH: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_circle.png)</span><div  class="persona__heading">@0</div></div>
+
+
 -->
 
 
@@ -115,7 +139,7 @@ __Learning Objectives for this course__
 
 ## Protagonists
 Let's introduce our protagonists - their questions and anwsers will guide you through this course:
-<div class=persona persona--kai>
+<div class=persona--kai>
 Kai, a collection curator at the Natural History Museum, wants to digitise his collections.
 </div>
 ![Kai](images/Kai_protagonist.PNG)
@@ -129,6 +153,11 @@ and Anita, a graduate student in archaeobotany,
 The team is backed up by Winnie, who works as a data steward at a data competency centre.
 ![Winnie](images/Winnie_protagonist.PNG)
 
+@Winnie(ich bin ein makroaufruf)
+
+@SusanH(```blalblaalbalalalalal , komma 
+absatz
+<p>absatz</p>```)
 
 ## Setting 
 

@@ -1,6 +1,6 @@
 
 .persona {
-  display: flex;
+  display: flex !important;
   gap: 1em;
   margin-bottom: 1.5em;
   align-items: flex-start;
@@ -10,9 +10,6 @@
   flex: none;
 }
 
-.persona__text {
-  font-size: 1em;
-}
 
 .persona__heading {
   font-size: 2em;
