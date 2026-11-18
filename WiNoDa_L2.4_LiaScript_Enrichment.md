@@ -13,7 +13,7 @@ comment:  ein Test für WiNoDa Kurslayout
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
-link:    
+link:    https://github.com/spaetzuenderin/WiNoDa_L2.4/blob/main/WiNoDa_LiaScript.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 -->
@@ -115,8 +115,9 @@ __Learning Objectives for this course__
 
 ## Protagonists
 Let's introduce our protagonists - their questions and anwsers will guide you through this course:
-
+<div class=persona persona--kai>
 Kai, a collection curator at the Natural History Museum, wants to digitise his collections.
+</div>
 ![Kai](images/Kai_protagonist.PNG)
 Dave, a Data Scientist at the museum, lends a lot of support and technical expertise for optimising digital workflows to this project.
 ![Dave](images/Dave_protagonist.PNG)
