@@ -1,6 +1,6 @@
 <!--
 author:   Asta von Schröder
-
+author:   Anna Lisa Schwartz
 email:    asta.vonschroeder@dainst.de
 
 version:  0.0.1
