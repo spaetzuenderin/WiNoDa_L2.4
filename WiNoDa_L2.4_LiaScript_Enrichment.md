@@ -280,81 +280,125 @@ A data record rarely exists in isolation. Its meaning can depend on where, when,
 
 ---
 
- <p class=nutshell> In a nutshell: </p>
-<div style="color:#2581C4;">
-There is inevitably some overlap between these terms. It can be useful to distinguish them by their purpose: 
+ <p class="nutshell"> In a nutshell: </p>
+<div class="persona--dave">
+<p>There is inevitably some overlap between these terms. It can be useful to distinguish them by their purpose: 
+</p>
 
-**Data integration** connects information from different sources so that it can be understood and used together.
+<p>
+ **Data integration** connects information from different sources so that it can be understood and used together.
+</p>
+<p>
+ **Data enrichment** adds information to existing data – for example, identifiers, standardised terms or links to other resources – to make the data more complete, precise or useful.
+</p>
+<p>
+ **Data contextualisation** connects data to information in order to help us understand its meaning, relationships and wider context.
+ </p>
 
-**Data enrichment** adds information to existing data – for example, identifiers, standardised terms or links to other resources – to make the data more complete, precise or useful.
-
-**Data contextualisation** connects data to information in order to help us understand its meaning, relationships and wider context.
 </div>
+
+
 ### Quiz 1
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)
+<div class="persona--winnie">Let's repeat what we have learned.<br>
+Klick the green arrows to proceed.</div>
+
 
 <!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
-{{1}}
+{{1-2}}
+<section>
+
 **Which example best illustrates data enrichment?**
 
-- [[ ]] A. Connecting a museum specimen record with an external taxonomic database so that information from both sources can be used together.
-- [[x]] B. Adding a persistent identifier and a standardised species name to an existing museum specimen record.
-- [[ ]] C. Connecting an archaeological find with the excavation site, associated finds and relevant publications.
-- [[ ]] D. Combining records from several databases into a single integrated research database.
+<!-- data-randomize="false" 
+data-hint-button="2" 
+data-text-solved="B is correct! A and D primarily describe data integration. C describes contextualisation."
+-->
 
-[[?]] Correct: adding identifiers and standardised information makes an existing record more complete and useful.  
-A and D primarily describe data integration. C describes contextualisation.
+- [( )] A: Connecting a museum specimen record with an external taxonomic database so that information from both sources can be used together.
+- [(x)] B: Adding a persistent identifier and a standardised species name to an existing museum specimen record.
+- [( )] C: Connecting an archaeological find with the excavation site, associated finds and relevant publications.
+- [( )] D: Combining records from several databases into a single integrated research database.
 
----
+[[?]] Think - what do you need to add to make an existing record more complete and useful?  
+
+</section>
+
+
 
 <!--- ### Question 2 — 02_011_0412_Mulitple-Choice_2 --->
-{{2}}
+{{2-3}}
+<section>
+
 **A museum has specimen records, an external taxonomic database and an observation database. The museum connects records from all three sources using persistent identifiers so that users can navigate between them. What is this primarily an example of?**
 
-- [[ ]] A. Data enrichment
-- [[ ]] B. Data contextualisation
-- [[x]] C. Data integration
-- [[ ]] D. Data cleaning
+<!-- data-randomize="false" 
+data-hint-button="2" 
+data-text-solved="Exactly! Enrichment may take place as part of this process, but the defining feature here is the integration of different sources."
+-->
 
-[[?]] Correct: information from different sources is being connected so that it can be used together.  
-Enrichment may take place as part of this process, but the defining feature here is the integration of different sources.
+- [( )] A: Data enrichment
+- [( )] B: Data contextualisation
+- [(x)] C: Data integration
+- [( )] D: Data cleaning
 
----
+[[?]] How do we call it if information from different sources is being connected so that it can be used together?  
+
+</section>
+
 
 <!--- ### Question 3 — 02_011_0412_Mulitple-Choice_3 --->
-{{3}}
+{{3-4}}
+<section>
+
 **An archaeologist has a record for a bone fragment. She links it to the excavation site, the archaeological layer where it was found, other objects found in the same layer and publications discussing the site. What is the main purpose of these connections?**
 
-- [[ ]] A. To enrich the record with additional information
-- [[x]] B. To contextualise the find by showing its wider relationships and background
-- [[ ]] C. To integrate several databases into one physical database
-- [[ ]] D. To standardise the spelling of the object's name
+<!-- data-randomize="false" 
+data-hint-button="2" 
+data-text-solved="Correct! The other activities can be useful, but they are not the main purpose described here."
+-->
 
-[[?]] Correct: the connections help the researcher understand the find in relation to its archaeological context. The other activities can be useful, but they are not the main purpose described here.
+- [( )] A: To enrich the record with additional information
+- [(x)] B: To contextualise the find by showing its wider relationships and background
+- [( )] C: To integrate several databases into one physical database
+- [( )] D: To standardise the spelling of the object's name
 
----
+[[?]] All these additional information establish the ....?
+</section>
+
 
 <!--- ### Question 4 — 02_011_0412_True-False --->
-{{4}}
+{{4-5}}
+<section>
+
 **True or false?**
 
-> Adding a persistent identifier to an existing record can be an example of data enrichment, even though that identifier may subsequently be used to integrate the record with other datasets.
+<!-- 
+data-text-solved="True! Adding the identifier enriches the existing record. If the identifier is then used to connect that record with information from other sources, it can also contribute to data integration. The concepts can therefore overlap."
+-->
 
-- [[x]]True
-- [[ ]] False
+Adding a persistent identifier to an existing record can be an example of data enrichment, even though that identifier may subsequently be used to integrate the record with other datasets.
 
-[[?]] Adding the identifier enriches the existing record. If the identifier is then used to connect that record with information from other sources, it can also contribute to data integration. The concepts can therefore overlap.
+- [(x)]True
+- [( )] False
 
----
+</section>
+
+
+{{5}}
+<section>
 
 <!--- ### Question 5 — 02_011_0412_Drag-the-Words 
 import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
 --->
-{{5}}
+
 **For each example, choose the concept that best describes its primary purpose. Remember that the three concepts can overlap.**
 
 <div class="Kachel">
 
-<!-- data-randomize="true" -->
+<!-- data-randomize="true" 
+data-text-solved="Well done!"
+-->
 
 1. A researcher adds the country code and geographic coordinates to historical specimen records.  
    [->[Data contextualisation|(Data enrichment)|Data integration]]
@@ -372,7 +416,7 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
    [->[Data contextualisation|(Data integration)|Data enrichment]]
 
 </div>
-
+</section>
 
 ## 2. Goals and Benefits of Data Integration
 ### Goals
