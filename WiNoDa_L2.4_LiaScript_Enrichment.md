@@ -48,6 +48,9 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 @Susan_: <div class="persona persona--susan"><span class="persona__image">![Susan](images/Susan_square.png)</span><div>@0</div></div>
 
 @Winnie_: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_square.png)</span><div>@0</div></div>
+
+@ExampleA: <div class="persona persona--anita"><span class="persona__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</span><div>@0</div></div>
+
 -->
 
 
@@ -184,7 +187,7 @@ You all want to make existing data more useful by connecting it to other informa
 
 
 
-### What is data integration? 
+### Data integration
 
 @KaiH(```What is data integration?```)
 
@@ -205,7 +208,7 @@ By connecting these resources, your original collection record becomes part of a
 
 
 
-### What is data enrichment?
+### Data enrichment
 @SusanH(```What is data enrichment?```)
 
 @Winnie_(```
@@ -217,7 +220,7 @@ For example, your historical occurrence records may contain only an old place na
 
 
 
-### What is data contextualisation? 
+### Data contextualisation
 @AnitaH(```
 What is data contextualisation?
 ```)
@@ -228,10 +231,10 @@ A data record rarely exists in isolation. Its meaning can depend on where, when,
 <p>For example, an archaeological find such as a pottery fragment tells us something on its own. But when we can relate it to the excavation site, the layer in which it was found, other objects from the same context, the people who excavated it and the relevant publications, we can understand the find much better.</p>
 <P>Contextualisation is therefore about **making relationships and background information visible**, so that we can interpret and use the data appropriately.</p>```)
 
+---
 
-
- <p class=nutshell>
-In a nutshell: </p>
+ <p class=nutshell> In a nutshell: </p>
+<div style="color:#2581C4;">
 There is inevitably some overlap between these terms. It can be useful to distinguish them by their purpose: 
 
 **Data integration** connects information from different sources so that it can be understood and used together.
@@ -239,7 +242,7 @@ There is inevitably some overlap between these terms. It can be useful to distin
 **Data enrichment** adds information to existing data – for example, identifiers, standardised terms or links to other resources – to make the data more complete, precise or useful.
 
 **Data contextualisation** connects data to information in order to help us understand its meaning, relationships and wider context.
-
+</div>
 ### Quiz
 
 <!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
@@ -322,3 +325,148 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
    [->[Data contextualisation|(Data integration)|Data enrichment]]
 
 </div>
+
+
+## 2. Goals and Benefits of Data Integration
+### Goals
+@AnitaH(```What are the goals of data integration? What are we trying to achieve? Do we simply want to put everything in one place?```)
+
+@Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>```)
+
+#### Example
+
+@ExampleA(```<p>Take an archaeobotanical example. <br>
+Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation.</p>
+<p>This was done with the Archaeobotanical Geodatabase of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
+https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm</p>```)
+
+
+@Winnie_(```<p>Depending on the research question, goals of data integration can include:
+- **combining complementary information** from different sources;
+- **making connections between records and resources**;
+- **enabling cross-dataset searches and analyses**;
+- **identifying patterns and relationships** that are difficult to see in individual datasets;
+- **making heterogeneous data more interoperable and reusable**.</p>```)
+
+### Benefits
+@KaiH(```That makes sense. But what are the benefits of data integration for researchers? Why is it worth the effort?```)
+
+@Winnie_(```<p>Integration can make existing data **more discoverable, more comparable and more useful for new research questions**.</p>
+<p>Instead of having to search and analyse each source separately, researchers can work across connected information. This can save time, reveal relationships that would otherwise remain hidden and make it possible to reuse existing data in new ways.
+There is also a benefit beyond the original research project. When data are integrated and made interoperable, they can become part of a wider research infrastructure. Other researchers can discover the data, combine them with other resources and ask questions that the original data creators may never have considered.</p>
+<p>In other words, **integration increases the potential value of existing data**, not only for the original researcher, but also for others who may want to reuse or build on it.</p>```)
+
+---
+
+<p class=nutshell> In a nutshell:</p>
+<div style="color:#2581C4;">
+The **goal** of data integration is to make data from different sources work together. 
+The **benefit** is that integrated data can support new connections, analyses and forms of reuse that would not be possible – or would be much harder – when the data remain isolated.
+</div>
+
+---
+
+##### Example 1: STAR and STELLAR
+
+Integrating semantic information such as persistent identifiers, authority data and controlled vocabularies can improve discoverability, accessibility, impact and sustainability. Projects such as **STAR** and **STELLAR** demonstrate how this can support interoperability across archaeological datasets.
+
+**STAR – Semantic Technologies for Archaeological Resources**  
+An AHRC-funded project (2007–2010) involving the University of Glamorgan and English Heritage, STAR aimed to make diverse archaeological datasets and _grey literature_ searchable together. It mapped five archaeological databases and extracts from the OASIS library to the **CIDOC Conceptual Reference Model (CIDOC CRM)** and its archaeological extension, CRM-EH. This allowed datasets with different structures and terminology to be cross-searched. The project produced a research demonstrator, semantic terminology services and RDF representations of archaeological data. The project has concluded, but its outputs and subsequent work are documented by the Archaeology Data Service (ADS).
+https://archaeologydataservice.ac.uk/about/projects/star/
+https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/
+(https://archaeologydataservice.ac.uk/).
+
+**STELLAR – Semantic Technologies Enhancing Links and Linked Data for Archaeological Resources**  
+STELLAR (2010–2011) built on STAR by developing tools and guidelines that made it easier for data providers to map archaeological datasets to **CIDOC CRM-EH** and publish them as **RDF Linked Data**. Several ADS excavation datasets served as case studies, and the resulting Linked Data was published through the **ADS Linked Data repository**. 
+https://archaeologydataservice.ac.uk/about/projects/stellar/
+https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/
+(https://data.archaeologydataservice.ac.uk/)
+
+**STAR and STELLAR illustrate an important goal of data integration: making heterogeneous datasets work together without requiring their original creators to have used exactly the same database structure or terminology.**  By mapping heterogeneous resources to a shared semantic framework, they can be **connected, searched and reused together while retaining their original structures and contexts**.
+
+
+**Related publications and resources**
+Tudhope, D., Binding, C., Jeffrey, S., May, K., & Vlachidis, A. (2011). A STELLAR role for knowledge organization systems in digital archaeology. _Bulletin of the American Society for Information Science and Technology_, _37_(4), 15–18. https://doi.org/10.1002/bult.2011.1720370405
+
+Charno, M., Jeffrey, S., Binding, C., Tudhope, D., & May, K. (2013). From the Slope of Enlightenment to the Plateau of Productivity: Developing Linked Data at the ADS. In G. Earl, T. Sly, A. Chrysanthi, P. Murrieta-Flores, C. Papadopoulos, I. Romanowska, & D. Wheatley (Eds.), _Archaeology in the Digital Era: Papers from the 40th Annual Conference of Computer Applications and Quantitative Methods in Archaeology (CAA), Southampton, 26-29 March 2012_ (pp. 216-223). Amsterdam University Press. http://dare.uva.nl/cgi/arno/show.cgi?fid=516092
+
+Binding, C., Charno, M., Jeffrey, S., May, K., & Tudhope, D. (2015). Template Based Semantic Integration: From Legacy Archaeological Datasets to Linked Data. _International Journal on Semantic Web and Information Systems (IJSWIS), 11_(1), 1-29. https://doi.org/10.4018/IJSWIS.2015010101
+
+---
+##### Example 2: DiSSCo – Distributed System of Scientific Collections
+
+**DiSSCo (Distributed System of Scientific Collections)** is a pan-European research infrastructure that aims to connect natural-science collections held by museums, botanical gardens, universities and research institutions. Its network brings together more than **400 institutions in 23 countries**, representing around **1.5 billion specimens**. Rather than centralising these collections, DiSSCo aims to make their data interoperable through shared standards, services, identifiers and governance.
+https://www.dissco.eu/
+
+DiSSCo was added to the **ESFRI Roadmap in 2018**. The **DiSSCo Prepare** project (2020–2023) developed the technical, scientific and organisational foundations for the infrastructure, followed by **DiSSCo Transition** (2023–2025), which focused on moving towards construction and establishing core services and governance. 
+https://www.dissco.eu/dissco-has-been-officially-accepted-on-the-esfri-roadmap/
+https://cordis.europa.eu/project/id/871043
+https://cordis.europa.eu/project/id/101130121
+
+A key concept is the **Digital Specimen**: a FAIR digital representation of an individual physical specimen with a persistent digital identity. This provides a common point for connecting different types of information, such as images, taxonomy, genomic and ecological data, publications and annotations. In 2025, DiSSCo reported that more than **five million digital specimens and media objects** were available through its DiSSCover platform and could be referenced using DOIs. 
+https://www.dissco.eu/digital-specimen-dissco/
+https://www.dissco.eu/five-million-dois/
+
+DiSSCo therefore illustrates that data integration does not require **centralising the original data**. Instead, distributed collections can be connected through shared identifiers, standards and relationships, making information about the same specimens more findable, interoperable and reusable across institutions and research domains.
+
+**Related publications and resources**
+Koureas, D., Addink, W., & Hardisty, A. (2018). Digital Object Cloud for linking natural science collections information; The case of DiSSCo. _Biodiversity Information Science and Standards_, _2_, e25474. https://doi.org/10.3897/biss.2.25474
+
+Addink, W., & Hardisty, A. (2020). ‘openDS’ – Progress on the New Standard for Digital Specimens. _Biodiversity Information Science and Standards_, _4_, e59338. https://doi.org/10.3897/biss.4.59338
+
+Hardisty, A. R., Ellwood, E. R., Nelson, G., Zimkus, B., Buschbom, J., Addink, W., Rabeler, R. K., Bates, J., Bentley, A., Fortes, J. A. B., Hansen, S., Macklin, J. A., Mast, A. R., Miller, J. T., Monfils, A. K., Paul, D. L., Wallis, E., & Webster, M. (2022). Digital Extended Specimens: Enabling an Extensible Network of Biodiversity Data Records as Integrated Digital Objects on the Internet. _BioScience_, _72_(10), 978–987. https://doi.org/10.1093/biosci/biac060
+
+---
+
+## Quiz
+- [ ] Question 1 
+WiNoDa_02_011_0417a_Multiple-Choice_1
+
+**What is the main goal of data integration?**
+	A. To make information from different sources work together  
+	**Correct.** This is the central goal of data integration: connecting information so that it can be used together.
+	B. To replace all existing databases with one database  
+	**Incorrect.** Integration does not necessarily require replacing or centralising existing databases.
+	C. To standardise every dataset into exactly the same structure  
+	**Incorrect.** Different datasets can be integrated even when their original structures differ.
+	D. To preserve datasets so they cannot be changed or reused  
+	**Incorrect.** Integration aims to support access, connection and reuse rather than prevent it.
+
+- [ ] Question 2
+WiNoDa_02_011_0417a_Multiple-Choice_2
+
+**Which of the following are potential benefits of data integration rather than a explicit goals?** (Mark all applicable options)
+	A. Identifying patterns across previously separate datasets  
+	**Correct.** Identifying new patterns is a potential benefit of being able to work across integrated data.
+	B. Making heterogeneous data interoperable  
+	**Incorrect.** Making different types of data work together is a **central goal** of data integration.
+	C. Saving researchers time when searching for information  
+	**Correct.** Saving time is a potential benefit of working with connected information.
+	D. Enabling new forms of data reuse  
+	**Correct.** New forms of reuse are a potential benefit of integrated and interoperable data.
+
+- [ ] Question 3
+WiNoDa_02_011_0417a_Multiple-Choice_3
+
+**Why does data integration not necessarily require putting all data into one central database?**
+	A. Because datasets can be connected through meaningful relationships  
+	**Correct.** Integration can connect distributed resources through shared structures, identifiers and relationships without centralising the original data.
+	B. Because separate datasets cannot be searched together  
+	**Incorrect.** One purpose of integration is precisely to enable cross-dataset searching and analysis.
+	C. Because databases are unrelated to data integration  
+	**Incorrect.** Databases and their structures can be important parts of an integration process.
+	D. Because only published data can be integrated  
+	**Incorrect.** Many different types of structured information can be integrated, not only published data.
+
+- [ ] Question 4
+WiNoDa_02_011_0417a_Multiple-Choice_4
+
+**What is a key benefit of making data interoperable and connected?**
+	A. Researchers can combine existing information to investigate new questions  
+	**Correct.** Interoperable data can be discovered, connected and reused to support research questions beyond the original project.
+	B. Researchers no longer need to understand the source data  
+	**Incorrect.** Integration does not remove the need to understand the data and their context.
+	C. All differences between datasets automatically disappear  
+	**Incorrect.** Integration can connect heterogeneous datasets without eliminating their differences.
+	D. The original data creators determine every future use  
+	**Incorrect.** Integrated data can be reused by other researchers for questions the original creators may not have anticipated.
