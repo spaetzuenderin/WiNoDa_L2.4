@@ -26,25 +26,40 @@
 
 
 .example {
-  display: flex !important;
-  gap: 1em;
-  margin-bottom: 1.5em;
+  display: flex;
+  gap: 1.5em;
   align-items: flex-start;
+  margin-bottom: 1.5em;
 }
 
 .example__image {
-  flex: 0 0 120px !important;
-  width: 120px !important;
-  max-width: 120px !important;
+  flex: 0 0 120px;
+  width: 150px;
 }
 
 .example__image img {
-  width: 120px !important;
-  max-width: 120px !important;
+  width: 100% !important;
+  max-width: 100% !important;
   height: auto !important;
 }
 
+.exampleA__text {
+  flex: 1 1 0;
+  min-width: 0;
+  color: #D06D00;
+}
 
+.exampleB__text {
+  flex: 1 1 0;
+  min-width: 0;
+  color: #29774C;
+}
+
+.exampleC__text {
+  flex: 1 1 0;
+  min-width: 0;
+  color: #124061;
+}
 
 
 .nutshell {

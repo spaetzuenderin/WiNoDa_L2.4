@@ -52,13 +52,17 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 
 @ExampleA
-<div class="example persona--anita">
-  <span class="example__image">
-    ![Anita under a magnifying glass](images/Example_Anita.PNG)
-  </span>
-  <div><lia-keep>
-    @0
-  </lia-keep></div>
+<div class="example">
+<div class="example__image">
+
+![Anita under a magnifying glass](images/Example_Anita.PNG)
+
+</div>
+<div class="exampleA__text">
+
+@0
+
+</div>
 </div>
 @end
 -->
@@ -343,15 +347,24 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
 
 @Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>```)
 
-#### Example
+<h4> Example </h4>
+<div class="example">
+<div class="example__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</div>
+<div class="exampleA__text">
+Take an archaeobotanical example. <br>
+Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation. 
+This was done with the **Archaeobotanical Geodatabase** of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
+[https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm](https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm)
+</div>
+</div>
 
+<!---
 @ExampleA(```<p>Take an archaeobotanical example. <br>
 Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation.</p>
-<p>This was done with the Archaeobotanical Geodatabase of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
-<a href="https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm">https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm
-</a>
+<p>This was done with the **Archaeobotanical Geodatabase** of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
+[https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm](https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm)
 </p>```)
-
+--->
 
 
 @Winnie_(```<p>Depending on the research question, goals of data integration can include:</p>
