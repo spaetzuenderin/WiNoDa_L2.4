@@ -39,7 +39,15 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 @WinnieH: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_circle.png)</span><div  class="persona__heading">@0</div></div>
 
+@Anita_: <div class="persona persona--anita"><span class="persona__image">![Anita](images/Anita_square.png)</span><div>@0</div></div>
 
+@Dave_: <div class="persona persona--dave"><span class="persona__image">![Dave](images/Dave_square.png)</span><div>@0</div></div>
+
+@Kai_: <div class="persona persona--kai"><span class="persona__image">![Kai](images/Kai_square.png)</span><div>@0</div></div>
+
+@Susan_: <div class="persona persona--susan"><span class="persona__image">![Susan](images/Susan_square.png)</span><div>@0</div></div>
+
+@Winnie_: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_square.png)</span><div>@0</div></div>
 -->
 
 
@@ -149,9 +157,8 @@ Susan, a distinguished entomologist,
 ![Susan](images/Susan_protagonist.PNG)
 and Anita, a graduate student in archaeobotany,
 ![Anita](images/Anita_protagonist.PNG) work with data from the museum collection. They also support Kai’s digitisation project as taxonomic expert (Susan) and data entry staff (Anita).
-
 The team is backed up by Winnie, who works as a data steward at a data competency centre.
-
+![Winnie](images/Winnie_protagonist.PNG)
 
 ## 1. Data integration, enrichment and contextualisation  
 
@@ -161,13 +168,13 @@ Kai, Susan, Anita, Dave and Winnie are meeting at the museum café.
 @Kai(```<p>I’ve been working with our collection data for years, but I keep running into the same problem. We have information about our specimens in our collection database, but there is also relevant information in taxonomic databases, authority files, observation databases and other sources.</p>
 <p> The problem is that these sources were created independently and use different structures, terms and identifiers. So although the information belongs together, it is difficult to connect the records and use all these sources together. I keep wondering: how can we bring these different sources together in a meaningful way?</p>```)
 
-@Susan(```<p>I know just what you mean. <<br>There are a lot of occurrence observations in the older literature that are recorded simply as place names. Many of these places have since been renamed, or their administrative boundaries have changed. <br>It is very difficult to run large-scale data analyses on such data. There must be a way to connect these old place names to standardised geographical information.</p>```)
+@Susan(```<p>I know just what you mean. <br>There are a lot of occurrence observations in the older literature that are recorded simply as place names. Many of these places have since been renamed, or their administrative boundaries have changed. <br>It is very difficult to run large-scale data analyses on such data. There must be a way to connect these old place names to standardised geographical information.</p>```)
 
 
 @Anita(```
 <p>I have a similar problem. <br>In archaeology, findings are often published separately. A digging site can yield lots of different information – pottery shards, remains of buildings, human or animal remains, tools, jewellery and plant remains.</p><p> But publications usually focus on one topic, so the findings are published separately and remain disconnected. It would be really useful to bring all this information together and see it in the context of the same site.</p>```)
 
-@Winnie(```
+@Winnie_(```
 <p>
 It sounds like you're actually describing three related, but slightly different challenges.
 You all want to make existing data more useful by connecting it to other information. There are different ways of doing this, including **integrating, enriching and contextualising data**.
@@ -182,8 +189,8 @@ You all want to make existing data more useful by connecting it to other informa
 @KaiH(```What is data integration?```)
 
 
-@Winnie(```<p>
- Data integration means **bringing data from different sources together so that they can be used and understood in a common context**.
+@Winnie_(```
+<p> Data integration means **bringing data from different sources together so that they can be used and understood in a common context**.
 The important point is that integration is not simply putting datasets next to each other or combining them into one spreadsheet. The data need to be connected in a meaningful way.
 </p>
 <p>
@@ -193,18 +200,20 @@ For example, imagine that your museum has a specimen record for:
 <p>
 Another database may contain information about the species, while an authority or taxonomic service provides a persistent identifier for that species. An observation database may contain records of where and when the species was observed.
 By connecting these resources, your original collection record becomes part of a larger network of information.
-</p>```)
+</p>
+```)
 
 
 
 ### What is data enrichment?
 @SusanH(```What is data enrichment?```)
 
-@Winnie(```
+@Winnie_(```
 <p>Data enrichment means **adding information to existing data to make it more complete, precise, or useful**.</p>
 <p>The additional information can come from another dataset, a reference source, a controlled vocabulary, a taxonomy, or another external service.<br>
 For example, your historical occurrence records may contain only an old place name. By connecting that place name to a standardised geographical name or a persistent identifier, you can add information that makes the record more precise and easier to work with. The original observation is still there, but the record has become more informative and more useful for further analysis.</p>
-<p>Data enrichment does not necessarily mean creating a new dataset. Often, a relatively small addition — such as a standardised term, an identifier, a classification or a link to another resource — can make existing data much more useful.</p>```)
+<p>Data enrichment does not necessarily mean creating a new dataset. Often, a relatively small addition — such as a standardised term, an identifier, a classification or a link to another resource — can make existing data much more useful.</p>
+```)
 
 
 
@@ -213,7 +222,7 @@ For example, your historical occurrence records may contain only an old place na
 What is data contextualisation?
 ```)
 
-@Winnie(```
+@Winnie_(```
 <p>Data contextualisation means **adding or connecting information that helps us understand data in its wider context**.<br>
 A data record rarely exists in isolation. Its meaning can depend on where, when, how and why something was found, as well as on its relationships to other objects, people, places, events or research.</p>
 <p>For example, an archaeological find such as a pottery fragment tells us something on its own. But when we can relate it to the excavation site, the layer in which it was found, other objects from the same context, the people who excavated it and the relevant publications, we can understand the find much better.</p>
@@ -222,7 +231,7 @@ A data record rarely exists in isolation. Its meaning can depend on where, when,
 
 
  <p class=nutshell>
- In a nutshell: </p>
+In a nutshell: </p>
 There is inevitably some overlap between these terms. It can be useful to distinguish them by their purpose: 
 
 **Data integration** connects information from different sources so that it can be understood and used together.
