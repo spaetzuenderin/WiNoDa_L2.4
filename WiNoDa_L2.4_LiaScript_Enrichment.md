@@ -299,9 +299,12 @@ A data record rarely exists in isolation. Its meaning can depend on where, when,
 
 
 ### Quiz 1
-![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)
-<div class="persona--winnie">Let's repeat what we have learned.<br>
-Klick the green arrows to proceed.</div>
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+width="50%"
+--><div class="persona--winnie">
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+</div>
 
 
 <!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
@@ -531,10 +534,12 @@ DiSSCo therefore illustrates that data integration does not require **centralisi
 
 ### Quiz 2
 
-![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)
-<div class="persona--winnie">Let's repeat what we have learned.<br>
-Klick the green arrows to proceed.</div>
-
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+width="50%"
+--><div class="persona--winnie">
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+</div>
 
 <!---  Question 1 - WiNoDa_02_011_0417a_Multiple-Choice_1--->
 
