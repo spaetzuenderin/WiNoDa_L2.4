@@ -607,3 +607,163 @@ WiNoDa_02_011_0417a_Multiple-Choice_4 --->
 - [( )] D. The original data creators determine every future use
 
 </section>
+
+
+## 3. Relation to Open Science practices
+
+
+@KaiH(```So, if integration makes existing data more useful to other researchers, what do we need to do to make that reuse possible?```)
+
+@Winnie_(```This is where **Open Science practices** become important. Data integration works best when research outputs are made accessible, understandable and reusable beyond the original project.```)
+
+@Anita(```But isn't open science mainly about making data and publications **openly available**?```)
+
+@Winnie_(```<p>
+Open access publishing and open data are important parts, but open science is more than that. The aim is to make different parts of the research process and its outputs as open, accessible and reusable as appropriate.
+</p>
+<p>
+Open science does not stop at making research data available. It involves a range of practices that can make research more transparent, accessible and reusable, **at every step of the research process.** Depending on the research context, this can include sharing research data, using open and interoperable formats, providing documentation and metadata, publishing methods and workflows, or using persistent identifiers.
+</p>
+<p>
+For example, a dataset is much more useful to others when they can not only access it, but also understand what the data represent, how they were collected, how they were processed and how they can be reused. Clear documentation, metadata, licensing and persistent identifiers all contribute to this.
+</p>
+<p>
+This also connects directly to data integration. When datasets are well and consistently described, use persistent identifiers and are available in interoperable formats, it becomes easier to discover, connect and combine them with other resources.
+</p>
+```)
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a nutshell:
+
+<!-- style="color: #2581C4" -->
+Open science practices help make research outputs accessible, understandable and reusable. They therefore provide important foundations for data integration and for enabling researchers to build on existing work.
+
+
+>[!TIP]
+>>For more information on reusability and the role of PID (persistent identifiers), see our courses:
+>> + RRP - Reusability and its relevance
+>> + RRP - Reusing object-related research data
+
+### Benefits of sharing data 
+
+@SusanH(```So, if I share my enriched data and republish them, I can help other researchers build on my work? But… what if they take the credit for my work?```)
+
+@Winnie_(```
+<p>
+Sharing enriched data can indeed help other researchers build on existing work. But sharing does not mean giving up attribution or provenance. Persistent identifiers, clear documentation, versioning and appropriate citation can help make contributions visible and traceable.
+</p>
+<p>
+Integrating and enriching collection data therefore creates benefits not only for the researchers who do the work. When those enrichments are shared, they can become a resource for others as well.
+</p>
+<p>
+For example, a researcher might add persistent identifiers, improved metadata, links to authority records, geographic information or connections to other resources to an existing collection dataset. If these enrichments are shared, they can improve the dataset for future users and make it easier to connect with other research resources.
+</p> ```)
+
+
+<div class="persona--winnie">
+<p>
+In this sense, data enrichment can be understood as a form of “giving back”: researchers contribute improvements that increase the value and usability of data beyond the original project.
+</p>
+<p>
+It's the famous Boy Scout rule:<br> 
+>>>"Try and leave this world (in this case: your data) a little better than you found it."
+</p>
+<p>
+This contributes to an open research ecosystem in which data can be:
+</p>
+<ul>
+<li> discovered by other researchers;</li>
+<li> connected to related datasets and resources;</li>
+<li> reused for new research questions;</li>
+<li> improved and enriched further by others.</li>
+</ul>
+<p>
+The result is not simply a better dataset, but a cycle of reuse and enrichment: researchers use existing data, add value to them, and share those improvements so that others can build on them.
+</p>
+</div>
+
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a nutshell:  
+
+<!-- style="color: #2581C4" -->
+Sharing enriched data helps create a research ecosystem in which existing data can be improved, connected and reused by others. And with appropriate attribution and provenance, sharing can make your contribution even more visible rather than making it disappear.
+
+
+
+> [!NOTE] Related publications and resources
+>>+ UNESCO – Recommendation on Open Science (2021)
+>>+ UNESCO – Recommendation on Open Science
+>>+ UNESCO – An introduction to the UNESCO Recommendation on Open Science (2022)
+>>+ UNESCO & Canadian National Commission for UNESCO. (2022). An introduction to the UNESCO Recommendation on Open Science. UNESCO. https://doi.org/10.54677/XOIR1696
+
+>[!NOTE] FAIR Principles
+>>Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18
+
+### Quiz
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+width="50%"
+--><div class="persona--winnie">
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+</div>
+
+<!--- Question 1 — 01_001_0157_Multiple-Choice_1 --->
+
+{{1-2}}
+<section>
+<!-- 
+data-randomize="true" 
+data-text-solved="Correct! Open Science encompasses a range of practices, including Open Data, documentation, methods, workflows and persistent identifiers." 
+-->
+
+Which statement best describes the relationship between Open Science and Open Data?
+
+[( )] Open Science and Open Data are two terms for exactly the same practice.
+
+[(X)] Open Data is one part of the broader Open Science approach.
+
+[( )] Open Science means that every research output must always be completely open.
+
+[( )] Open Data is only relevant after a research project has been completed.
+</section>
+
+
+<!--- Question 2 — 01_001_0157_Multiple-Choice_2 --->
+{{2-3}}
+<section>
+<!-- 
+data-randomize="true" 
+data-text-solved="Correct! Sharing enrichments can make existing data more useful and easier to connect with related resources and reuse for new research." 
+-->
+
+A researcher enriches an existing collection dataset with persistent identifiers, improved metadata and links to other resources, then shares those enrichments. What is a key benefit for the wider research community?
+
+[(X)] Other researchers can discover, connect and reuse the improved data.
+
+[( )] The original dataset no longer needs its source or provenance information.
+
+[( )] All researchers must use the enriched dataset in exactly the same way.
+
+[( )] The researcher automatically becomes the author of all future research using the data.
+</section>
+
+
+<!--- Question 3 — 01_001_0157_Multiple-Choice_3 --->
+{{3}}
+<section>
+<!-- 
+data-randomize="true" 
+data-text-solved="Correct! Enriching and sharing data contributes improvements that can benefit researchers beyond the original project and support further reuse." 
+-->
+
+Why can sharing enriched data be described as “giving back” to the research community?
+
+[(X)] Because researchers can improve existing resources and make those improvements available for others to build on.
+
+[( )] Because researchers must give up attribution when they share their data.
+
+[( )] Because shared data can only be used by the researcher who created the enrichment.
+
+[( )] Because every shared dataset must be merged into one central research database.
+</section>
