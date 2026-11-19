@@ -1,8 +1,4 @@
 
-body {
-  outline: 5px solid magenta !important;
-}
-
 .persona > span {
   display: flex !important;
   gap: 1em;

@@ -290,7 +290,7 @@ There is inevitably some overlap between these terms. It can be useful to distin
 
 **Data contextualisation** connects data to information in order to help us understand its meaning, relationships and wider context.
 </div>
-### Quiz
+### Quiz 1
 
 <!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
 {{1}}
@@ -381,17 +381,12 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
 @Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>
 <p>Take an archaeobotanical example.</p>```)
 
-<!---
-<h4> Example </h4>
-<div class="example">
-<div class="example__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</div>
-<div class="exampleA__text">
-**Example**
-Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation. 
+<!--->
+![Anita under a magnifying glass](images/Example_Anita.PNG)
+<div class="exampleA__text"><h4>Example</h4>
+Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation. <br>
 This was done with the **Archaeobotanical Geodatabase** of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
 [https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm](https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm)
-
-</div>
 </div>
 --->
 
@@ -433,26 +428,27 @@ The **benefit** is that integrated data can support new connections, analyses an
 
 ### Example 1: STAR and STELLAR
 
-<div class="example">
-<div class="example__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</div>
+
+![Anita under a magnifying glass](images/Example_Anita.PNG)
 <div class="exampleA__text">
 Integrating semantic information such as persistent identifiers, authority data and controlled vocabularies can improve discoverability, accessibility, impact and sustainability. Projects such as **STAR** and **STELLAR** demonstrate how this can support interoperability across archaeological datasets.
 
 **STAR – Semantic Technologies for Archaeological Resources**  
 An AHRC-funded project (2007–2010) involving the University of Glamorgan and English Heritage, STAR aimed to make diverse archaeological datasets and _grey literature_ searchable together. It mapped five archaeological databases and extracts from the OASIS library to the **CIDOC Conceptual Reference Model (CIDOC CRM)** and its archaeological extension, CRM-EH. This allowed datasets with different structures and terminology to be cross-searched. The project produced a research demonstrator, semantic terminology services and RDF representations of archaeological data. The project has concluded, but its outputs and subsequent work are documented by the Archaeology Data Service (ADS).
-https://archaeologydataservice.ac.uk/about/projects/star/
-https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/
-(https://archaeologydataservice.ac.uk/).
++ https://archaeologydataservice.ac.uk/about/projects/star/ 
++ https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/ 
++ (https://archaeologydataservice.ac.uk/). 
+
 
 **STELLAR – Semantic Technologies Enhancing Links and Linked Data for Archaeological Resources**  
 STELLAR (2010–2011) built on STAR by developing tools and guidelines that made it easier for data providers to map archaeological datasets to **CIDOC CRM-EH** and publish them as **RDF Linked Data**. Several ADS excavation datasets served as case studies, and the resulting Linked Data was published through the **ADS Linked Data repository**. 
-https://archaeologydataservice.ac.uk/about/projects/stellar/
-https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/
-(https://data.archaeologydataservice.ac.uk/)
++ https://archaeologydataservice.ac.uk/about/projects/stellar/
++ https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-cybersecurity-mathematics-and-informatics/
++ (https://data.archaeologydataservice.ac.uk/)
 
 **STAR and STELLAR illustrate an important goal of data integration: making heterogeneous datasets work together without requiring their original creators to have used exactly the same database structure or terminology.**  By mapping heterogeneous resources to a shared semantic framework, they can be **connected, searched and reused together while retaining their original structures and contexts**.
 </div>
-</div>
+
 
 >**Related publications and resources**<br>
 >>Tudhope, D., Binding, C., Jeffrey, S., May, K., & Vlachidis, A. (2011). A STELLAR role for knowledge organization systems in digital archaeology. _Bulletin of the American Society for Information Science and Technology_, _37_(4), 15–18. https://doi.org/10.1002/bult.2011.1720370405
@@ -463,20 +459,22 @@ https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-c
 
 ---
 ### Example 2: DiSSCo – Distributed System of Scientific Collections
-
-**DiSSCo (Distributed System of Scientific Collections)** is a pan-European research infrastructure that aims to connect natural-science collections held by museums, botanical gardens, universities and research institutions. Its network brings together more than **400 institutions in 23 countries**, representing around **1.5 billion specimens**. Rather than centralising these collections, DiSSCo aims to make their data interoperable through shared standards, services, identifiers and governance.
+![Susan standing under a large magnifying glass](images/Example_Susan.PNG)
+<div class="exampleB__text">
+**DiSSCo (Distributed System of Scientific Collections)** is a pan-European research infrastructure that aims to connect natural-science collections held by museums, botanical gardens, universities and research institutions. Its network brings together more than **400 institutions in 23 countries**, representing around **1.5 billion specimens**. Rather than centralising these collections, DiSSCo aims to make their data interoperable through shared standards, services, identifiers and governance. <br>
 https://www.dissco.eu/
 
 DiSSCo was added to the **ESFRI Roadmap in 2018**. The **DiSSCo Prepare** project (2020–2023) developed the technical, scientific and organisational foundations for the infrastructure, followed by **DiSSCo Transition** (2023–2025), which focused on moving towards construction and establishing core services and governance. 
-https://www.dissco.eu/dissco-has-been-officially-accepted-on-the-esfri-roadmap/
-https://cordis.europa.eu/project/id/871043
-https://cordis.europa.eu/project/id/101130121
++ https://www.dissco.eu/dissco-has-been-officially-accepted-on-the-esfri-roadmap/
++ https://cordis.europa.eu/project/id/871043
++ https://cordis.europa.eu/project/id/101130121
 
 A key concept is the **Digital Specimen**: a FAIR digital representation of an individual physical specimen with a persistent digital identity. This provides a common point for connecting different types of information, such as images, taxonomy, genomic and ecological data, publications and annotations. In 2025, DiSSCo reported that more than **five million digital specimens and media objects** were available through its DiSSCover platform and could be referenced using DOIs. 
-https://www.dissco.eu/digital-specimen-dissco/
-https://www.dissco.eu/five-million-dois/
++ https://www.dissco.eu/digital-specimen-dissco/
++ https://www.dissco.eu/five-million-dois/
 
 DiSSCo therefore illustrates that data integration does not require **centralising the original data**. Instead, distributed collections can be connected through shared identifiers, standards and relationships, making information about the same specimens more findable, interoperable and reusable across institutions and research domains.
+</div>
 
 >**Related publications and resources**
 >>Koureas, D., Addink, W., & Hardisty, A. (2018). Digital Object Cloud for linking natural science collections information; The case of DiSSCo. _Biodiversity Information Science and Standards_, _2_, e25474. https://doi.org/10.3897/biss.2.25474
@@ -487,7 +485,7 @@ DiSSCo therefore illustrates that data integration does not require **centralisi
 
 ---
 
-## Quiz
+### Quiz 2
 - [ ] Question 1 
 WiNoDa_02_011_0417a_Multiple-Choice_1
 
