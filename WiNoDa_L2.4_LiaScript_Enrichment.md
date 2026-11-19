@@ -530,54 +530,75 @@ DiSSCo therefore illustrates that data integration does not require **centralisi
 ---
 
 ### Quiz 2
-- [ ] Question 1 
-WiNoDa_02_011_0417a_Multiple-Choice_1
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)
+<div class="persona--winnie">Let's repeat what we have learned.<br>
+Klick the green arrows to proceed.</div>
+
+
+<!---  Question 1 - WiNoDa_02_011_0417a_Multiple-Choice_1--->
+
+{{1-2}}
+<section>
 
 **What is the main goal of data integration?**
-	A. To make information from different sources work together  
-	**Correct.** This is the central goal of data integration: connecting information so that it can be used together.
-	B. To replace all existing databases with one database  
-	**Incorrect.** Integration does not necessarily require replacing or centralising existing databases.
-	C. To standardise every dataset into exactly the same structure  
-	**Incorrect.** Different datasets can be integrated even when their original structures differ.
-	D. To preserve datasets so they cannot be changed or reused  
-	**Incorrect.** Integration aims to support access, connection and reuse rather than prevent it.
 
-- [ ] Question 2
-WiNoDa_02_011_0417a_Multiple-Choice_2
+<!-- data-text-solved="Correct! This is the central goal of data integration: connecting information so that it can be used together." -->
 
-**Which of the following are potential benefits of data integration rather than a explicit goals?** (Mark all applicable options)
-	A. Identifying patterns across previously separate datasets  
-	**Correct.** Identifying new patterns is a potential benefit of being able to work across integrated data.
-	B. Making heterogeneous data interoperable  
-	**Incorrect.** Making different types of data work together is a **central goal** of data integration.
-	C. Saving researchers time when searching for information  
-	**Correct.** Saving time is a potential benefit of working with connected information.
-	D. Enabling new forms of data reuse  
-	**Correct.** New forms of reuse are a potential benefit of integrated and interoperable data.
+- [(X)] A. To make information from different sources work together
+- [( )] B. To replace all existing databases with one database
+- [( )] C. To standardise every dataset into exactly the same structure
+- [( )] D. To preserve datasets so they cannot be changed or reused
 
-- [ ] Question 3
-WiNoDa_02_011_0417a_Multiple-Choice_3
+</section>
+
+<!--- Question 2
+WiNoDa_02_011_0417a_Multiple-Choice_2 --->
+
+{{2-3}}
+<section>
+
+**Which of the following are potential benefits of data integration rather than explicit goals?** (Mark all applicable options)
+
+<!-- data-text-solved="Correct! Identifying new patterns, saving researchers time and enabling new forms of data reuse are potential benefits of data integration. Making heterogeneous data interoperable is a central goal rather than a benefit." -->
+
+- [[X]] A. Identifying patterns across previously separate datasets
+- [[ ]] B. Making heterogeneous data interoperable
+- [[X]] C. Saving researchers time when searching for information
+- [[X]] D. Enabling new forms of data reuse
+
+</section>
+
+<!--- Question 3
+WiNoDa_02_011_0417a_Multiple-Choice_3 --->
+
+{{3-4}}
+<section>
 
 **Why does data integration not necessarily require putting all data into one central database?**
-	A. Because datasets can be connected through meaningful relationships  
-	**Correct.** Integration can connect distributed resources through shared structures, identifiers and relationships without centralising the original data.
-	B. Because separate datasets cannot be searched together  
-	**Incorrect.** One purpose of integration is precisely to enable cross-dataset searching and analysis.
-	C. Because databases are unrelated to data integration  
-	**Incorrect.** Databases and their structures can be important parts of an integration process.
-	D. Because only published data can be integrated  
-	**Incorrect.** Many different types of structured information can be integrated, not only published data.
 
-- [ ] Question 4
-WiNoDa_02_011_0417a_Multiple-Choice_4
+<!-- data-text-solved="Correct! Integration can connect distributed resources through shared structures, identifiers and relationships without centralising the original data." -->
+
+- [(X)] A. Because datasets can be connected through meaningful relationships
+- [( )] B. Because separate datasets cannot be searched together
+- [( )] C. Because databases are unrelated to data integration
+- [( )] D. Because only published data can be integrated
+
+</section>
+
+<!--- Question 4 
+WiNoDa_02_011_0417a_Multiple-Choice_4 --->
+
+{{4}}
+<section>
 
 **What is a key benefit of making data interoperable and connected?**
-	A. Researchers can combine existing information to investigate new questions  
-	**Correct.** Interoperable data can be discovered, connected and reused to support research questions beyond the original project.
-	B. Researchers no longer need to understand the source data  
-	**Incorrect.** Integration does not remove the need to understand the data and their context.
-	C. All differences between datasets automatically disappear  
-	**Incorrect.** Integration can connect heterogeneous datasets without eliminating their differences.
-	D. The original data creators determine every future use  
-	**Incorrect.** Integrated data can be reused by other researchers for questions the original creators may not have anticipated.
+
+<!-- data-text-solved="Correct! Interoperable data can be discovered, connected and reused to support research questions beyond the original project." -->
+
+- [(X)] A. Researchers can combine existing information to investigate new questions
+- [( )] B. Researchers no longer need to understand the source data
+- [( )] C. All differences between datasets automatically disappear
+- [( )] D. The original data creators determine every future use
+
+</section>
