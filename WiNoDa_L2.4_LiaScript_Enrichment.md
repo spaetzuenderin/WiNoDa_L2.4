@@ -13,7 +13,7 @@ comment:  ein Test für WiNoDa Kurslayout
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
-link:     https://cdn.jsdelivr.net/gh/spaetzuenderin/WiNoDa_L2.4@main/WiNoDa_LiaScript-Style.css
+link:     https://cdn.jsdelivr.net/gh/spaetzuenderin/WiNoDa_L2.4@438c55d/WiNoDa_LiaScript-Style.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
@@ -65,6 +65,39 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 </div>
 </div>
 @end
+
+@ExampleB
+<div class="example">
+<div class="example__image">
+
+![Susan under a magnifying glass](images/Example_Susan.PNG)
+
+</div>
+<div class="exampleB__text">
+
+@0
+
+</div>
+</div>
+@end
+
+@ExampleC
+<div class="example">
+<div class="example__image">
+
+![Kai under a magnifying glass](images/Example_Kai.PNG)
+
+</div>
+<div class="exampleC__text">
+
+@0
+
+</div>
+</div>
+@end
+
+
+
 -->
 
 
@@ -345,26 +378,29 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
 ### Goals
 @AnitaH(```What are the goals of data integration? What are we trying to achieve? Do we simply want to put everything in one place?```)
 
-@Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>```)
+@Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>
+<p>Take an archaeobotanical example.</p>```)
 
+<!---
 <h4> Example </h4>
 <div class="example">
 <div class="example__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</div>
 <div class="exampleA__text">
-Take an archaeobotanical example. <br>
+**Example**
 Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation. 
 This was done with the **Archaeobotanical Geodatabase** of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
 [https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm](https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm)
-</div>
-</div>
 
-<!---
-@ExampleA(```<p>Take an archaeobotanical example. <br>
+</div>
+</div>
+--->
+
+@ExampleA(```<h4>Example</h4><p>
 Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation.</p>
 <p>This was done with the **Archaeobotanical Geodatabase** of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
 [https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm](https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm)
 </p>```)
---->
+
 
 
 @Winnie_(```<p>Depending on the research question, goals of data integration can include:</p>
@@ -395,8 +431,11 @@ The **benefit** is that integrated data can support new connections, analyses an
 
 ---
 
-##### Example 1: STAR and STELLAR
+### Example 1: STAR and STELLAR
 
+<div class="example">
+<div class="example__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</div>
+<div class="exampleA__text">
 Integrating semantic information such as persistent identifiers, authority data and controlled vocabularies can improve discoverability, accessibility, impact and sustainability. Projects such as **STAR** and **STELLAR** demonstrate how this can support interoperability across archaeological datasets.
 
 **STAR – Semantic Technologies for Archaeological Resources**  
@@ -412,17 +451,18 @@ https://www.southwales.ac.uk/research/research-and-innovation-groups/computing-c
 (https://data.archaeologydataservice.ac.uk/)
 
 **STAR and STELLAR illustrate an important goal of data integration: making heterogeneous datasets work together without requiring their original creators to have used exactly the same database structure or terminology.**  By mapping heterogeneous resources to a shared semantic framework, they can be **connected, searched and reused together while retaining their original structures and contexts**.
+</div>
+</div>
 
-
-**Related publications and resources**
-Tudhope, D., Binding, C., Jeffrey, S., May, K., & Vlachidis, A. (2011). A STELLAR role for knowledge organization systems in digital archaeology. _Bulletin of the American Society for Information Science and Technology_, _37_(4), 15–18. https://doi.org/10.1002/bult.2011.1720370405
-
-Charno, M., Jeffrey, S., Binding, C., Tudhope, D., & May, K. (2013). From the Slope of Enlightenment to the Plateau of Productivity: Developing Linked Data at the ADS. In G. Earl, T. Sly, A. Chrysanthi, P. Murrieta-Flores, C. Papadopoulos, I. Romanowska, & D. Wheatley (Eds.), _Archaeology in the Digital Era: Papers from the 40th Annual Conference of Computer Applications and Quantitative Methods in Archaeology (CAA), Southampton, 26-29 March 2012_ (pp. 216-223). Amsterdam University Press. http://dare.uva.nl/cgi/arno/show.cgi?fid=516092
-
-Binding, C., Charno, M., Jeffrey, S., May, K., & Tudhope, D. (2015). Template Based Semantic Integration: From Legacy Archaeological Datasets to Linked Data. _International Journal on Semantic Web and Information Systems (IJSWIS), 11_(1), 1-29. https://doi.org/10.4018/IJSWIS.2015010101
+>**Related publications and resources**<br>
+>>Tudhope, D., Binding, C., Jeffrey, S., May, K., & Vlachidis, A. (2011). A STELLAR role for knowledge organization systems in digital archaeology. _Bulletin of the American Society for Information Science and Technology_, _37_(4), 15–18. https://doi.org/10.1002/bult.2011.1720370405
+>
+>>Charno, M., Jeffrey, S., Binding, C., Tudhope, D., & May, K. (2013). From the Slope of Enlightenment to the Plateau of Productivity: Developing Linked Data at the ADS. In G. Earl, T. Sly, A. Chrysanthi, P. Murrieta-Flores, C. Papadopoulos, I. Romanowska, & D. Wheatley (Eds.), _Archaeology in the Digital Era: Papers from the 40th Annual Conference of Computer Applications and Quantitative Methods in Archaeology (CAA), Southampton, 26-29 March 2012_ (pp. 216-223). Amsterdam University Press. http://dare.uva.nl/cgi/arno/show.cgi?fid=516092
+>
+>>Binding, C., Charno, M., Jeffrey, S., May, K., & Tudhope, D. (2015). Template Based Semantic Integration: From Legacy Archaeological Datasets to Linked Data. _International Journal on Semantic Web and Information Systems (IJSWIS), 11_(1), 1-29. https://doi.org/10.4018/IJSWIS.2015010101
 
 ---
-##### Example 2: DiSSCo – Distributed System of Scientific Collections
+### Example 2: DiSSCo – Distributed System of Scientific Collections
 
 **DiSSCo (Distributed System of Scientific Collections)** is a pan-European research infrastructure that aims to connect natural-science collections held by museums, botanical gardens, universities and research institutions. Its network brings together more than **400 institutions in 23 countries**, representing around **1.5 billion specimens**. Rather than centralising these collections, DiSSCo aims to make their data interoperable through shared standards, services, identifiers and governance.
 https://www.dissco.eu/
@@ -438,12 +478,12 @@ https://www.dissco.eu/five-million-dois/
 
 DiSSCo therefore illustrates that data integration does not require **centralising the original data**. Instead, distributed collections can be connected through shared identifiers, standards and relationships, making information about the same specimens more findable, interoperable and reusable across institutions and research domains.
 
-**Related publications and resources**
-Koureas, D., Addink, W., & Hardisty, A. (2018). Digital Object Cloud for linking natural science collections information; The case of DiSSCo. _Biodiversity Information Science and Standards_, _2_, e25474. https://doi.org/10.3897/biss.2.25474
-
-Addink, W., & Hardisty, A. (2020). ‘openDS’ – Progress on the New Standard for Digital Specimens. _Biodiversity Information Science and Standards_, _4_, e59338. https://doi.org/10.3897/biss.4.59338
-
-Hardisty, A. R., Ellwood, E. R., Nelson, G., Zimkus, B., Buschbom, J., Addink, W., Rabeler, R. K., Bates, J., Bentley, A., Fortes, J. A. B., Hansen, S., Macklin, J. A., Mast, A. R., Miller, J. T., Monfils, A. K., Paul, D. L., Wallis, E., & Webster, M. (2022). Digital Extended Specimens: Enabling an Extensible Network of Biodiversity Data Records as Integrated Digital Objects on the Internet. _BioScience_, _72_(10), 978–987. https://doi.org/10.1093/biosci/biac060
+>**Related publications and resources**
+>>Koureas, D., Addink, W., & Hardisty, A. (2018). Digital Object Cloud for linking natural science collections information; The case of DiSSCo. _Biodiversity Information Science and Standards_, _2_, e25474. https://doi.org/10.3897/biss.2.25474
+>
+>>Addink, W., & Hardisty, A. (2020). ‘openDS’ – Progress on the New Standard for Digital Specimens. _Biodiversity Information Science and Standards_, _4_, e59338. https://doi.org/10.3897/biss.4.59338
+>
+>>Hardisty, A. R., Ellwood, E. R., Nelson, G., Zimkus, B., Buschbom, J., Addink, W., Rabeler, R. K., Bates, J., Bentley, A., Fortes, J. A. B., Hansen, S., Macklin, J. A., Mast, A. R., Miller, J. T., Monfils, A. K., Paul, D. L., Wallis, E., & Webster, M. (2022). Digital Extended Specimens: Enabling an Extensible Network of Biodiversity Data Records as Integrated Digital Objects on the Internet. _BioScience_, _72_(10), 978–987. https://doi.org/10.1093/biosci/biac060
 
 ---
 
