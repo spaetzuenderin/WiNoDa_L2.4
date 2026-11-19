@@ -49,8 +49,18 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 @Winnie_: <div class="persona persona--winnie"><span class="persona__image">![Winnie](images/Winnie_square.png)</span><div>@0</div></div>
 
-@ExampleA: <div class="persona persona--anita"><span class="persona__image">![Anita under a magnifying glass](images/Example_Anita.PNG)</span><div>@0</div></div>
 
+
+@ExampleA
+<div class="example persona--anita">
+  <span class="example__image">
+    ![Anita under a magnifying glass](images/Example_Anita.PNG)
+  </span>
+  <div><lia-keep>
+    @0
+  </lia-keep></div>
+</div>
+@end
 -->
 
 
@@ -338,15 +348,21 @@ import: https://raw.githubusercontent.com/MINT-the-GAP/lia-Kachel/main/README.md
 @ExampleA(```<p>Take an archaeobotanical example. <br>
 Researchers have published information about plant remains from many different archaeological sites over a long period of time. If these records are brought together in a structured way, we can investigate patterns across sites, periods and regions rather than looking at each publication in isolation.</p>
 <p>This was done with the Archaeobotanical Geodatabase of the Early Iron Age – Early Middle Ages in the Forest Zone of the East European Plain. It brings together information from 373 previously published assemblages from 321 archaeological sites and combines the database with supporting image and GIS data.<br>
-https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm</p>```)
+<a href="https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm">https://archaeologydataservice.ac.uk/archives/collections/view/1006631/index.cfm
+</a>
+</p>```)
 
 
-@Winnie_(```<p>Depending on the research question, goals of data integration can include:
-- **combining complementary information** from different sources;
-- **making connections between records and resources**;
-- **enabling cross-dataset searches and analyses**;
-- **identifying patterns and relationships** that are difficult to see in individual datasets;
-- **making heterogeneous data more interoperable and reusable**.</p>```)
+
+@Winnie_(```<p>Depending on the research question, goals of data integration can include:</p>
+<ul>
+<li>  **combining complementary information** from different sources;</li>
+<li>  **making connections between records and resources**;</li>
+<li>  **enabling cross-dataset searches and analyses**;</li>
+<li>  **identifying patterns and relationships** that are difficult to see in individual datasets;</li>
+<li>  **making heterogeneous data more interoperable and reusable**.</li>
+</ul>
+```)
 
 ### Benefits
 @KaiH(```That makes sense. But what are the benefits of data integration for researchers? Why is it worth the effort?```)

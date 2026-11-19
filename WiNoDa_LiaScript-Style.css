@@ -1,5 +1,7 @@
 
-.persona {
+
+
+.persona > span {
   display: flex !important;
   gap: 1em;
   margin-bottom: 1.5em;
@@ -22,9 +24,33 @@
 .persona--susan { color: #29774C; }
 .persona--winnie { color: #7f9108; }
 
+
+.example {
+  display: flex !important;
+  gap: 1em;
+  margin-bottom: 1.5em;
+  align-items: flex-start;
+}
+
+.example__image {
+  flex: 0 0 120px !important;
+  width: 120px !important;
+  max-width: 120px !important;
+}
+
+.example__image img {
+  width: 120px !important;
+  max-width: 120px !important;
+  height: auto !important;
+}
+
+
+
+
 .nutshell {
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #AFCA0B;
 }
+
 
