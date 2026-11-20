@@ -297,13 +297,29 @@ A data record rarely exists in isolation. Its meaning can depend on where, when,
 
 
 ### Quiz 1
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
 ![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
-width="50%"
---><div class="persona--winnie">
+width="100%"-->
+
+</div>
+<div class="persona--winnie">
 Let's repeat what we have learned.<br>
 Klick the arrows on the green button to proceed.
 </div>
-
+</div>
 
 <!--- ### Question 1 — 02_011_0412_Mulitple-Choice_1 -->
 {{1-2}}
@@ -575,11 +591,28 @@ DiSSCo therefore illustrates that data integration does not require **centralisi
 
 ### Quiz 2
 
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
 ![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
-width="50%"
---><div class="persona--winnie">
+width="100%"-->
+
+</div>
+<div class="persona--winnie">
 Let's repeat what we have learned.<br>
 Klick the arrows on the green button to proceed.
+</div>
 </div>
 
 <!---  Question 1 - WiNoDa_02_011_0417a_Multiple-Choice_1--->
@@ -744,10 +777,28 @@ Sharing enriched data helps create a research ecosystem in which existing data c
 >>Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18
 
 ### Quiz 3
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
 ![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
-width="50%"--><div class="persona--winnie">
+width="100%"-->
+
+</div>
+<div class="persona--winnie">
 Let's repeat what we have learned.<br>
 Klick the arrows on the green button to proceed.
+</div>
 </div>
 
 <!--- Question 1 — 01_001_0157_Multiple-Choice_1 --->
@@ -921,7 +972,29 @@ width="100%"-->
 
 ### Quiz 4
 
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
 
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+width="100%"-->
+
+</div>
+<div class="persona--winnie">
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+</div>
+</div>
 
 
 
