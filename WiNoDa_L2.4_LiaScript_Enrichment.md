@@ -705,10 +705,9 @@ Sharing enriched data helps create a research ecosystem in which existing data c
 >[!NOTE] FAIR Principles
 >>Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18
 
-### Quiz
+### Quiz 3
 ![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
-width="50%"
---><div class="persona--winnie">
+width="50%"--><div class="persona--winnie">
 Let's repeat what we have learned.<br>
 Klick the arrows on the green button to proceed.
 </div>
@@ -775,54 +774,69 @@ Why can sharing enriched data be described as “giving back” to the research 
 
 
 
-## Challenges in Data Integration
+## 4. Challenges in Data Integration
 
-### (Susan) So we've talked about why data integration is useful and how Open Science practices can help. But which challenges exist in data integration?
+![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/1_Coffee-table.png) 
+@Susan(```So we've talked about why data integration is useful and how Open Science practices can help. But it is probably not as easy as it sounds...```)
 
-@Winnie_(```<p>You're right to be cautious, Susan. Integration brings real benefits, but it also comes with challenges. Understanding these helps explain why certain practices and standards have developed.</p>```)
+### Structural heterogeneity
+@SusanH(```Which challenges exist in data integration?```)
 
-@Kai_(```<p>From a collection perspective, one obvious challenge is that different institutions document things differently. Even within natural history, one museum might record specimen data in one format, another museum uses different fields, and a third might have information locked up in old card catalogues or PDFs.</p>```)
+@Winnie_(```<p>You're right to be cautious, Susan. <br>Integration brings real benefits, but it also comes with challenges. Understanding these helps explain why certain practices and standards have developed.</p>```)
 
-@Dave_(```<p>That's what we call **structural heterogeneity**. The same kind of information exists, but it's organised differently in each dataset. Technically, you can't just merge those tables and expect meaningful results.</p>```)
+@Kai(```<p>From a collection perspective, one obvious challenge is that different institutions document things differently.</p><p>Even within natural history, one museum might record specimen data in one format, another museum uses different fields, and a third might have information locked up in old card catalogues or PDFs.</p>```)
 
-@Anita_(```<p>We see something similar in archaeology. One excavation project might record plant remains with detailed taxonomic information, another might use more general categories, and a third might not record certain types of evidence at all. How do you integrate datasets when they don't even ask the same questions?</p>```)
+@Dave_(```<p>That's what we call **structural heterogeneity**.<br>The same kind of information exists, but it's organised differently in each dataset. Technically, you can't just merge those tables and expect meaningful results.</p>```)
 
-@Winnie_(```<p>That touches on a second challenge: **semantic heterogeneity**. Even when datasets have similar structures, they may use different terms or concepts to describe the same thing. For example, one dataset might use "Iron Age" while another uses "Early Iron Age" or a specific date range.</p>```)
+### Semantic heterogeneity
+@Anita(```<p>We see something similar in archaeology. <br>One excavation project might record plant remains with detailed taxonomic information, another might use more general categories, and a third might not record certain types of evidence at all.</p> <p class="persona__heading">How do you integrate datasets when they don't even ask the same questions?</p>```)
 
-@Susan_(```<p>Also: the terminology isn't always consistent even within a single research community: Different researchers, different time periods, different languages. It can be quite confusing and time consuming to understand if we even talk about the same thing.</p>```)
+@Winnie_(```<p>That touches on a second challenge: **semantic heterogeneity**. Even when datasets have similar structures, they may use different terms or concepts to describe the same thing.</p><p> For example, one dataset might use "Iron Age" while another uses "Early Iron Age" or a specific date range.</p>```)
+
+@Susan(```<p>Also: the terminology isn't always consistent even within a single research community: Different researchers, different time periods, different languages.</p><p>**It can be quite confusing and time-consuming to understand whether we even talk about the same thing.**</p>```)
 
 @Winnie_(```<p>That's why we use **controlled vocabularies** and **authority records**.</p>```)
 
 @Dave_(```<p>From a technical angle, there's also the question of **identifiers**. If you want to connect records about the same specimen, site, or publication across different datasets, you need a reliable way to know they're talking about the same thing.</p>```)
 
-@Anita_(```<p>Like if I'm working with plant remains from Site A, and someone else has published on Site A, but we're using different site codes or names, how do we know we're referring to the same place?</p>```)
+@Anita(```<p>Like if I'm working with plant remains from Site A, and someone else has published on Site A, but we're using different site codes or names, **how do we know we're referring to the same place?**</p>```)
 
 @Winnie_(```<p>Precisely. That's where **persistent identifiers** come in. But not all datasets use them, and older datasets especially may have no stable identifiers at all. That makes connections harder to establish and maintain.</p>```)
 
-@Susan_(```<p>What about documentation? I've worked with datasets where I couldn't tell what certain columns meant, or how the data had been processed.</p>```)
+### Documentation
+@Susan(```<p class="persona__heading">What about documentation?</p><p> I've worked with datasets where I couldn't tell what certain columns meant, or how the data had been processed.</p>```)
+
 
 @Kai_(```<p>That's a common problem in collections too. **Insufficient metadata or documentation** makes data hard to interpret and reuse. Even if you can technically access a dataset, you might not understand what it represents or how it was created.</p>```)
 
-### (Susan) What about the quality of the data themselves? If one dataset has missing or inconsistent information, wouldn't that also make integration difficult?
+### Data quality
+@Susan(```<p class="persona__heading">What about the quality of the data?</p><p> If one dataset has missing or inconsistent information, wouldn't that also make integration difficult?</p>```)
 
 @Winnie_(```<p>Absolutely. Data integration can bring together information that differs not only in structure and terminology, but also in quality. Data may be incomplete, inconsistent, outdated or recorded with different levels of precision.</p>```)
 
 @Kai_(```<p>That happens in collection data too. Older records may be missing dates or locations, while newer records may contain much more detailed information. The difference does not necessarily mean that one dataset is useless, but it does affect how the data can be compared and interpreted.</p>```)
 
 @Winnie_(```<p>Exactly. **Data quality is an important challenge in integration, but it is a broad topic in its own right.**</p>
-<p><em>We will not explore it in detail here; there is a separate course on data quality.</em></p>
 <p>For now, it is enough to recognise that the quality and completeness of the source data affect what can be integrated and what conclusions can be drawn.</p>```)
 
-@Dave_(```<p>And then there are **licensing and access restrictions**. Some datasets are openly available, others require permission, and some have unclear or incompatible licenses. That affects whether and how you can integrate them.</p>```)
+>[!TIP] WiNoDa prepared a detailed course on data quality:
+>> **Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272 ) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
 
-@Winnie_(```<p>Which brings us back to Open Science practices. Many of these challenges can be reduced when researchers and collection professionals share data with clear documentation, standard formats, persistent identifiers and appropriate licensing.</p>```)
+### Access and licences
 
-### (Susan) So the challenges aren't necessarily reasons not to integrate. They're more like obstacles that good practices can help overcome?
+@Dave_(```<p class="persona__heading">And then there are licensing and access restrictions.</p> Some datasets are openly available, others require permission, and some have unclear or incompatible licenses. That affects whether and how you can integrate them.</p>```)
 
-@Winnie_(```<p>Exactly. Recognising these challenges helps explain why the field has developed certain standards and practices.</p>```)
+@Winnie_(```<p>Which brings us back to Open Science practices. <br>Many of these challenges can be reduced when researchers and collection professionals share data with <ul><li> clear documentation,</li><li> standard formats,</li><li> persistent identifiers,</li><li> and appropriate licensing.</li></ul></p>```)
 
-**In a nutshell:**
+### Summary
+@SusanH(```So the challenges aren't necessarily reasons not to integrate. They're more like obstacles that good practices can help overcome?```)
 
+@Winnie_(```<p>Exactly. <br>Recognising these challenges helps explain why the field has developed certain standards and practices.</p>```)
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a nutshell:  
+
+<div style="color: #2581C4" >
 Data integration faces challenges including 
  - structural and semantic heterogeneity;
  - inconsistent or missing identifiers;
@@ -831,10 +845,16 @@ Data integration faces challenges including
  - varying access conditions and licenses. 
 
 These challenges help explain why practices like controlled vocabularies, persistent identifiers, good documentation and data-quality checks are important.
+ </div>
 
-See also the WiNoDa courses on
-- RDM - Core concepts of data quality in research data management
-- RDM - Data Governance. Strategies for quality improvement in collection data
-- RDM - Professional Data Curation and Metadata Standards
+### Further information
+![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+width="50%"--> 
+>[!TIP] See also the WiNoDa courses on
+>> **Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272 ) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
+>
+>>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab . Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0.(DOI forthcoming)
+>
+>>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0.(DOI forthcoming)
 
 
