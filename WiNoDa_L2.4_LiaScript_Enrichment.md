@@ -1,15 +1,13 @@
 <!--
-author:   Asta von Schröder
-author:   Anna Lisa Schwartz
-email:    asta.vonschroeder@dainst.de
-email:    alschwartz@gfbio.org
+author:   Dr. Asta von Schröder (DAI) (https://orcid.org/0009-0007-5852-771X) with Anna Lisa Schwartz (GFBio) (https://orcid.org/0000-0003-0391-3879)
+email:    asta.vonschroeder@dainst.de, alschwartz@gfbio.org
 version:  0.0.1
 
 language: en
 
 narrator: English Female
 
-comment:  ein Test für WiNoDa Kurslayout
+comment:  **Enrichment & contextualisation of object-related collection data** was created as self-paced online course for the WiNoDa Knowledge Lab. CC BY 4.0 2026
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
@@ -847,14 +845,27 @@ Data integration faces challenges including
 These challenges help explain why practices like controlled vocabularies, persistent identifiers, good documentation and data-quality checks are important.
  </div>
 
-### Further information
-![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
-width="50%"--> 
->[!TIP] See also the WiNoDa courses on
->> **Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272 ) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
->
->>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab . Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0.(DOI forthcoming)
->
->>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0.(DOI forthcoming)
 
+
+### Further information
+
+<div style="display: flex; align-items: flex-start; gap: 0.1em;">
+
+<div style="flex: 0 0 40%;">
+![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+width="100%"--> 
+</div>
+
+<div style="flex: 1;">
+
+>[!TIP] See also the WiNoDa courses on
+>
+>**Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+
+</div>
+</div>
 
