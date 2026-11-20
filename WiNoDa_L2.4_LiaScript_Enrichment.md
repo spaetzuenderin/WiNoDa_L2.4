@@ -997,5 +997,105 @@ Klick the arrows on the green button to proceed.
 </div>
 
 
+{{1-2}}
+<section>
+
+<!-- question 1: 02_011_0428_Multiple-Choice_1 -->
+
+**What does "structural heterogeneity" refer to in data integration?**
+
+<!--
+data-randomize
+data-text-solved="Exactly. Structural heterogeneity means the same kind of information exists but is organised in different ways across datasets, making simple merging impossible."
+data-text-failed="Not quite. Structural heterogeneity refers to differences in how information is organised across datasets, not language, location, methodology, or age of formats."
+-->
+[( )] A) When datasets use different languages
+
+[(X)] B) When the same information is organised differently across datasets
+
+[( )] C) When datasets are stored in different physical locations
+
+[( )] D) When researchers disagree on methodology
+
+[( )] E) When data formats are outdated
+
+</section>
+
+{{2-3}}
+<section>
+
+<!-- question 2: 011_0428_Multiple-Choice_2 -->
+
+**How do insufficient metadata and documentation challenge data integration?**
+
+<!--
+data-randomize
+data-text-solved="Exactly. Without adequate metadata and documentation, users may not understand what data represent or how they were created, limiting interpretation and reuse even when the data are technically accessible."
+data-text-failed="Not quite. The main problem with insufficient metadata is that data become hard to understand and reuse. It's not primarily about file size, technical connectivity, validity of findings, or software costs."
+-->
+[( )] A) They make datasets too large to process
+
+[( )] B) They prevent datasets from being technically connected
+
+[(X)] C) They make data hard to interpret and reuse, even when accessible
+
+[( )] D) They automatically invalidate research findings
+
+[( )] E) They require expensive software to resolve
+
+</section>
+
+{{3-4}}
+<section>
+
+<!-- question 3: 011_0428_Multiple-Choice_3 -->
+
+**Which of the following can be challenges when integrating data from different sources?**
+
+_Select all that apply. There are three correct answers._
+
+<!--
+data-randomize
+data-text-solved="Correct! Structural differences (A), semantic differences (B), and insufficient documentation or metadata (C) can all make data integration more difficult."
+data-text-failed="Not quite. There are three correct answers: A, B and C. Structural differences, semantic differences, and insufficient documentation or metadata can make data integration more difficult. Different dates or institutions (D) do not automatically create difficulties. Different data types (E) may require different tools or workflows, but can still be integrated through appropriate relationships and metadata."
+-->
+[[X]] A) Different datasets organise similar information in different ways.
+
+[[X]] B) Different datasets use different terms or concepts for similar things.
+
+[[X]] C) Some datasets lack sufficient documentation or metadata.
+
+[[ ]] D) Different datasets were collected at different times or by different organisations.
+
+[[ ]] E) The datasets contain different types of information, such as text, images and numerical measurements.
+
+</section>
+
+
+{{4-5}}
+<section>
+
+<!-- question 4: 02_011_0428_Multiple-Choice_4 -->
+
+**Which practices can help overcome challenges in data integration?**
+
+_Select all that apply. There are three correct answers._
+
+<!--
+data-randomize
+data-text-solved="Correct. Controlled vocabularies help address semantic differences, persistent identifiers support reliable connections between records, and good documentation and metadata make datasets easier to interpret and reuse."
+data-text-failed="Not quite. The three correct answers are the use of controlled vocabularies, persistent identifiers, and clear documentation and metadata. These practices address semantic heterogeneity, difficulties in connecting records, and insufficient documentation. Simply converting all datasets into the same format does not resolve all integration challenges, and older datasets should not automatically be excluded."
+-->
+[[X]] Using controlled vocabularies to reduce semantic heterogeneity.
+
+[[X]] Using persistent identifiers to establish reliable connections between records.
+
+[[X]] Providing clear documentation and metadata to support interpretation and reuse.
+
+[[ ]] Converting all datasets into the same file format, regardless of their content.
+
+[[ ]] Excluding older datasets because they may contain incomplete information.
+
+</section>
 
 
