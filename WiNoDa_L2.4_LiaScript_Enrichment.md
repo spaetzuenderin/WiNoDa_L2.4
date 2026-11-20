@@ -1099,3 +1099,211 @@ data-text-failed="Not quite. The three correct answers are the use of controlled
 </section>
 
 
+## 5. Controlled Vocabularies
+![Our protagonists sit around a table in the museum cafeteria. All of them have mugs or drinks. Winnie holds up her hand as if explaining something.](images/2_Coffee-table.png)
+@SusanH(```How do controlled vocabularies help with data integration?```)
+
+@Winnie_(```<p>We have seen that different researchers may use different terms for the same thing. **Controlled vocabularies** are a practical way to reduce that problem when describing data. A controlled vocabulary is an agreed list of terms for describing particular concepts in a consistent way. It can reduce variation when people record, search and exchange information.</p>```)
+
+### Purpose: Consistent terminology
+
+@SusanH(```<p>So instead of everyone entering whatever wording they prefer, we use terms from the same list or select one from a dropdown menu?</p>```)
+
+@Winnie_(```<p>Exactly. For example, a biodiversity dataset might use a defined list of terms for habitat types, life stages or observation methods. An archaeological dataset might use an agreed list for material types or periods.</p>
+<p>A controlled vocabulary may also record synonyms, alternative spellings or earlier terms. This helps users and systems recognise relationships between different ways of describing a concept.</p>
+<p>Most software tools can integrate preventive methods to enforce their usage by adding preventive measures such as controlled dropdowns or validation scripts.</p>
+<p>For example, one collection might describe an object as <em>“dragonfly”</em>, while another uses <em>“Odonata”</em>.</p>
+<p>In biodiversity data, the **GBIF Backbone Taxonomy** provides a reference framework for matching taxonomic names from different sources. It helps connect records that may use different usages of names and supports searching across occurrence datasets, checklists and other resources.</p>
+<p>This does not mean that every taxonomic name is automatically correct or that different names always refer to exactly the same concept. Name matching may be uncertain, incomplete or dependent on the taxonomic source being used. GBIF therefore provides information about cases such as fuzzy matches or matches only at a higher taxonomic rank.</p>```)
+
+### Limitations: Matching and validation
+
+@SusanH(```So a controlled vocabulary can help us recognise and connect terms, but it does not remove the need to check the data?```)
+
+@Winnie_(```<p>That is right. Controlled vocabularies support consistency, but they do not guarantee that a term was entered correctly or that the chosen concept is appropriate.</p>
+<p>Software can help apply a controlled vocabulary—for example, through dropdown menus, validation rules or scripts that check whether values follow the agreed list. These measures can prevent some inconsistencies, although they do not replace documentation or expert review.</p>
+<p>Controlled vocabularies do not solve every integration problem, and they do not make datasets identical. They can, however, reduce variation in terminology and make information easier to search, compare and connect.</p>```)
+
+### Benefits: Shared terminology
+
+@SusanH(```So they provide a shared way of naming things, without requiring every dataset to have exactly the same structure?```)
+
+@Winnie_(```<p>That is the idea. Controlled vocabularies help datasets speak more consistently about the concepts they contain.</p>```)
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a nutshell:  
+
+<!-- style="color: #2581C4" -->
+A **controlled vocabulary** is an agreed list of terms used to describe concepts consistently. It can reduce variation in terminology and make data easier to search, compare and integrate.
+
+
+## Quiz 5
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+width="100%"-->
+
+</div>
+<div class="persona--winnie">
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+</div>
+</div>
+
+
+{{1-2}}
+<section>
+
+<!-- question 1: 03_005_0703_Multiple-Choice_1 -->
+
+**Which statement best describes the purpose of a controlled vocabulary?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Controlled vocabularies provide agreed terms that help make descriptions more consistent and improve searching, comparison and connections between datasets."
+data-text-failed="Not quite. A controlled vocabulary does not centralise data, guarantee accuracy, replace documentation or convert file formats."
+-->
+[( )] It provides a single database in which all datasets must be stored.
+
+[(X)] It provides agreed terms that can be used consistently to describe concepts.
+
+[( )] It automatically checks whether all data in a dataset are accurate.
+
+[( )] It replaces the need for metadata and documentation.
+
+[( )] It converts all data into the same file format.
+
+[[?]] Think about how agreed terminology helps different researchers describe and search for the same concepts.
+</section>
+
+{{2-3}}
+<section>
+
+<!-- question 2: 03_005_0703_Multiple-Choice_2 -->
+
+**Which statement best describes Spectrum?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Spectrum is a collection-management standard covering procedures such as acquisition, cataloguing, inventory, loans and location control."
+data-text-failed="Not quite. Spectrum is a collection-management standard. It is not primarily a taxonomic vocabulary, an archaeological vocabulary, a conceptual model or a database platform."
+-->
+[( )] It is a taxonomic vocabulary for natural-history collections.
+
+[( )] It is a controlled vocabulary for archaeological periods.
+
+[(X)] It is a collection-management standard describing museum procedures and information to record.
+
+[( )] It is a conceptual model for representing relationships in cultural-heritage data.
+
+[( )] It is a database platform for publishing museum collections online.
+
+[[?]] Spectrum describes what museums should do in their collection-management work and what information they should record for these procedures.
+</section>
+
+{{3-4}}
+<section>
+
+<!-- question 3: 03_005_0703_Multiple-Choice_3 -->
+
+**Why might a museum use both Spectrum and a discipline-specific vocabulary?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. These resources serve complementary purposes: Spectrum helps structure collection-management activities and documentation, while specialist vocabularies help describe objects, materials, taxa, places or people consistently."
+data-text-failed="Not quite. Museums may combine collection-management standards with discipline-specific vocabularies because they serve different purposes. This does not require centralising data or guarantee data quality."
+-->
+[(X)] Spectrum defines collection-management procedures, while the vocabulary provides consistent terms for describing the collection and related entities.
+
+[( )] Spectrum is used for natural-history collections, while discipline-specific vocabularies are used only for art collections.
+
+[( )] Spectrum replaces the need for taxonomic, geographic and personal-name references.
+
+[( )] A museum must use both resources to store its data in one central database.
+
+[( )] Discipline-specific vocabularies are used to check whether all collection data are accurate.
+
+[[?]] Consider the different roles of collection-management procedures and specialist terminology when documenting museum collections.
+
+
+</section>
+
+{{4-5}}
+<section>
+
+<!-- question 4: 03_005_0703_Multiple-Choice_4 -->
+
+**Which resource would be most directly relevant when standardising the names of places or people in cultural-heritage records?**
+
+<!--
+data-randomize
+data-text-solved="Correct. Getty vocabularies include resources for areas such as geographic names and artist names, which can support consistent description and linking of cultural-heritage records."
+data-text-failed="Not quite. Getty vocabularies include resources for geographic names and artist names. GBIF Backbone Taxonomy and Darwin Core focus on biodiversity data, Spectrum on collection-management procedures, and CIDOC CRM on representing concepts and relationships in cultural-heritage information."
+-->
+[( )] GBIF Backbone Taxonomy
+
+[( )] Darwin Core
+
+[(X)] Getty vocabularies, such as the Thesaurus of Geographic Names or Union List of Artist Names
+
+[( )] Spectrum
+
+[( )] CIDOC CRM
+
+[[?]] Think about which resources provide standardised names for geographic locations and artists in cultural-heritage documentation.
+
+</section>
+
+
+
+{{5-6}}
+<section>
+
+<!-- question 5: 03_005_0703_True-False_1 -->
+
+**Darwin Core is a taxonomic classification that determines which scientific names are accepted.**
+
+<!--
+data-randomize
+data-text-solved="Correct. Darwin Core is a standard set of terms for describing biodiversity data, including taxa, specimens, occurrences, locations and events. It is not itself a taxonomic classification."
+data-text-failed="Not quite. Darwin Core provides terms for describing biodiversity data; it does not determine which scientific names are accepted."
+-->
+[( )] True
+
+[(X)] False
+
+</section>
+
+{{6-7}}
+<section>
+
+<!-- question 6: 03_005_0703_True-False_2 -->
+
+**CIDOC CRM is a conceptual model for representing concepts and relationships in cultural-heritage information, rather than simply a list of permitted terms.**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. CIDOC CRM provides a formal structure for representing concepts and relationships in cultural-heritage documentation."
+data-text-failed="Not quite. CIDOC CRM is a conceptual model or ontology. It helps represent relationships between cultural-heritage entities; it is not simply a list of permitted descriptive terms."
+-->
+[(X)] True
+
+[( )] False
+
+</section>
