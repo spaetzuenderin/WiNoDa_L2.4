@@ -476,11 +476,24 @@ The **benefit** is that integrated data can support new connections, analyses an
 
 ### Example 1: STAR and STELLAR
 
-
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+<div style="flex: 0 0 30%; min-width: 0;">
 ![Anita under a magnifying glass](images/Example_Anita.PNG)
+</div>
 <div class="exampleA__text">
 Integrating semantic information such as persistent identifiers, authority data and controlled vocabularies can improve discoverability, accessibility, impact and sustainability. Projects such as **STAR** and **STELLAR** demonstrate how this can support interoperability across archaeological datasets.
-
+</div>
+</div>
+<div class="exampleA__text">
 **STAR – Semantic Technologies for Archaeological Resources**  
 An AHRC-funded project (2007–2010) involving the University of Glamorgan and English Heritage, STAR aimed to make diverse archaeological datasets and _grey literature_ searchable together. It mapped five archaeological databases and extracts from the OASIS library to the **CIDOC Conceptual Reference Model (CIDOC CRM)** and its archaeological extension, CRM-EH. This allowed datasets with different structures and terminology to be cross-searched. The project produced a research demonstrator, semantic terminology services and RDF representations of archaeological data. The project has concluded, but its outputs and subsequent work are documented by the Archaeology Data Service (ADS).
 + https://archaeologydataservice.ac.uk/about/projects/star/ 
@@ -848,24 +861,41 @@ These challenges help explain why practices like controlled vocabularies, persis
 
 
 ### Further information
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+<div style="display: flex; align-items: flex-start; gap: 1em;">
 
-<div style="display: flex; align-items: flex-start; gap: 0.1em;">
+<div style="flex: 0 0 30%; min-width: 0;">
 
-<div style="flex: 0 0 40%;">
 ![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
-width="100%"--> 
-</div>
-
-<div style="flex: 1;">
-
->[!TIP] See also the WiNoDa courses on
->
->**Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
->
->**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
->
->**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+width="100%"-->
 
 </div>
+
+<div style="flex: 1; min-width: 0;">
+
+>[!TIP] **See also the WiNoDa courses on**
+>
+>>**Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+
 </div>
+</div>
+
+### Quiz 4
+
+
+
+
+
 
