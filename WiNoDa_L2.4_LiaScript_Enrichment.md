@@ -491,9 +491,8 @@ style
 </div>
 <div class="exampleA__text">
 Integrating semantic information such as persistent identifiers, authority data and controlled vocabularies can improve discoverability, accessibility, impact and sustainability. Projects such as **STAR** and **STELLAR** demonstrate how this can support interoperability across archaeological datasets.
-</div>
-</div>
-<div class="exampleA__text">
+
+
 **STAR – Semantic Technologies for Archaeological Resources**  
 An AHRC-funded project (2007–2010) involving the University of Glamorgan and English Heritage, STAR aimed to make diverse archaeological datasets and _grey literature_ searchable together. It mapped five archaeological databases and extracts from the OASIS library to the **CIDOC Conceptual Reference Model (CIDOC CRM)** and its archaeological extension, CRM-EH. This allowed datasets with different structures and terminology to be cross-searched. The project produced a research demonstrator, semantic terminology services and RDF representations of archaeological data. The project has concluded, but its outputs and subsequent work are documented by the Archaeology Data Service (ADS).
 + https://archaeologydataservice.ac.uk/about/projects/star/ 
@@ -509,7 +508,7 @@ STELLAR (2010–2011) built on STAR by developing tools and guidelines that made
 
 **STAR and STELLAR illustrate an important goal of data integration: making heterogeneous datasets work together without requiring their original creators to have used exactly the same database structure or terminology.**  By mapping heterogeneous resources to a shared semantic framework, they can be **connected, searched and reused together while retaining their original structures and contexts**.
 </div>
-
+</div>
 
 >**Related publications and resources**<br>
 >>Tudhope, D., Binding, C., Jeffrey, S., May, K., & Vlachidis, A. (2011). A STELLAR role for knowledge organization systems in digital archaeology. _Bulletin of the American Society for Information Science and Technology_, _37_(4), 15–18. https://doi.org/10.1002/bult.2011.1720370405
@@ -520,7 +519,33 @@ STELLAR (2010–2011) built on STAR by developing tools and guidelines that made
 
 ---
 ### Example 2: DiSSCo – Distributed System of Scientific Collections
+
+<!---
+
+style
+
+.lia-figure {
+
+  float: none !important;
+
+  max-width: 100% !important;
+
+  width: 100% !important;
+
+  margin: 0 !important;
+
+}
+
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
 ![Susan standing under a large magnifying glass](images/Example_Susan.PNG)
+
+</div>
+
 <div class="exampleB__text">
 **DiSSCo (Distributed System of Scientific Collections)** is a pan-European research infrastructure that aims to connect natural-science collections held by museums, botanical gardens, universities and research institutions. Its network brings together more than **400 institutions in 23 countries**, representing around **1.5 billion specimens**. Rather than centralising these collections, DiSSCo aims to make their data interoperable through shared standards, services, identifiers and governance. <br>
 https://www.dissco.eu/
@@ -536,6 +561,8 @@ A key concept is the **Digital Specimen**: a FAIR digital representation of an i
 
 DiSSCo therefore illustrates that data integration does not require **centralising the original data**. Instead, distributed collections can be connected through shared identifiers, standards and relationships, making information about the same specimens more findable, interoperable and reusable across institutions and research domains.
 </div>
+</div>
+
 
 >**Related publications and resources**
 >>Koureas, D., Addink, W., & Hardisty, A. (2018). Digital Object Cloud for linking natural science collections information; The case of DiSSCo. _Biodiversity Information Science and Standards_, _2_, e25474. https://doi.org/10.3897/biss.2.25474
