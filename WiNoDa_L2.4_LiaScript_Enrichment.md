@@ -213,7 +213,7 @@ The team is backed up by Winnie, who works as a data steward at a data competenc
 ## 1. Data integration, enrichment and contextualisation  
 
 Kai, Susan, Anita, Dave and Winnie are meeting at the museum café.
-![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/1_Coffee-table.png)
+![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/1_Coffee-table.png) 
 
 @Kai(```<p>I’ve been working with our collection data for years, but I keep running into the same problem. We have information about our specimens in our collection database, but there is also relevant information in taxonomic databases, authority files, observation databases and other sources.</p>
 <p> The problem is that these sources were created independently and use different structures, terms and identifiers. So although the information belongs together, it is difficult to connect the records and use all these sources together. I keep wondering: how can we bring these different sources together in a meaningful way?</p>```)
@@ -422,8 +422,11 @@ data-text-solved="Well done!"
 </section>
 
 ## 2. Goals and Benefits of Data Integration
+![Our protagonists sit around a table in the museum cafeteria. All of them have mugs or drinks. Winnie holds up her hand as if explaining something.](images/2_Coffee-table.png)
+@Anita(```I understand that by adding information we can enrich and contextualise data, but what are we trying to achieve? Do we simply want to put everything in one place?```)
+
 ### Goals
-@AnitaH(```What are the goals of data integration? What are we trying to achieve? Do we simply want to put everything in one place?```)
+@AnitaH(```What are the goals of data integration?```)
 
 @Winnie_(```<p>Not necessarily.<br> The main goal is to **make information from different sources work together**. This allows us to ask questions that could not be answered using the individual datasets separately.</p>
 <p>Take an archaeobotanical example.</p>```)
@@ -611,12 +614,14 @@ WiNoDa_02_011_0417a_Multiple-Choice_4 --->
 
 ## 3. Relation to Open Science practices
 
-
-@KaiH(```So, if integration makes existing data more useful to other researchers, what do we need to do to make that reuse possible?```)
+![Our protagonists sit around a table in the museum cafeteria](images/3_Coffee-table.png)
+@Kai(```So, if integration makes existing data more useful to other researchers, what do we need to do to make that reuse possible?```)
 
 @Winnie_(```This is where **Open Science practices** become important. Data integration works best when research outputs are made accessible, understandable and reusable beyond the original project.```)
 
-@Anita(```But isn't open science mainly about making data and publications **openly available**?```)
+### Open Science - more than Open Access
+
+@AnitaH(```But isn't open science mainly about making data and publications **openly available**?```)
 
 @Winnie_(```<p>
 Open access publishing and open data are important parts, but open science is more than that. The aim is to make different parts of the research process and its outputs as open, accessible and reusable as appropriate.
@@ -650,7 +655,7 @@ Open science practices help make research outputs accessible, understandable and
 
 @Winnie_(```
 <p>
-Sharing enriched data can indeed help other researchers build on existing work. But sharing does not mean giving up attribution or provenance. Persistent identifiers, clear documentation, versioning and appropriate citation can help make contributions visible and traceable.
+Sharing enriched data can indeed help other researchers build on existing work. But **sharing does not mean giving up attribution or provenance**. Persistent identifiers, clear documentation, versioning and appropriate citation can help make contributions visible and traceable.
 </p>
 <p>
 Integrating and enriching collection data therefore creates benefits not only for the researchers who do the work. When those enrichments are shared, they can become a resource for others as well.
@@ -767,3 +772,69 @@ Why can sharing enriched data be described as “giving back” to the research 
 
 [( )] Because every shared dataset must be merged into one central research database.
 </section>
+
+
+
+## Challenges in Data Integration
+
+### (Susan) So we've talked about why data integration is useful and how Open Science practices can help. But which challenges exist in data integration?
+
+@Winnie_(```<p>You're right to be cautious, Susan. Integration brings real benefits, but it also comes with challenges. Understanding these helps explain why certain practices and standards have developed.</p>```)
+
+@Kai_(```<p>From a collection perspective, one obvious challenge is that different institutions document things differently. Even within natural history, one museum might record specimen data in one format, another museum uses different fields, and a third might have information locked up in old card catalogues or PDFs.</p>```)
+
+@Dave_(```<p>That's what we call **structural heterogeneity**. The same kind of information exists, but it's organised differently in each dataset. Technically, you can't just merge those tables and expect meaningful results.</p>```)
+
+@Anita_(```<p>We see something similar in archaeology. One excavation project might record plant remains with detailed taxonomic information, another might use more general categories, and a third might not record certain types of evidence at all. How do you integrate datasets when they don't even ask the same questions?</p>```)
+
+@Winnie_(```<p>That touches on a second challenge: **semantic heterogeneity**. Even when datasets have similar structures, they may use different terms or concepts to describe the same thing. For example, one dataset might use "Iron Age" while another uses "Early Iron Age" or a specific date range.</p>```)
+
+@Susan_(```<p>Also: the terminology isn't always consistent even within a single research community: Different researchers, different time periods, different languages. It can be quite confusing and time consuming to understand if we even talk about the same thing.</p>```)
+
+@Winnie_(```<p>That's why we use **controlled vocabularies** and **authority records**.</p>```)
+
+@Dave_(```<p>From a technical angle, there's also the question of **identifiers**. If you want to connect records about the same specimen, site, or publication across different datasets, you need a reliable way to know they're talking about the same thing.</p>```)
+
+@Anita_(```<p>Like if I'm working with plant remains from Site A, and someone else has published on Site A, but we're using different site codes or names, how do we know we're referring to the same place?</p>```)
+
+@Winnie_(```<p>Precisely. That's where **persistent identifiers** come in. But not all datasets use them, and older datasets especially may have no stable identifiers at all. That makes connections harder to establish and maintain.</p>```)
+
+@Susan_(```<p>What about documentation? I've worked with datasets where I couldn't tell what certain columns meant, or how the data had been processed.</p>```)
+
+@Kai_(```<p>That's a common problem in collections too. **Insufficient metadata or documentation** makes data hard to interpret and reuse. Even if you can technically access a dataset, you might not understand what it represents or how it was created.</p>```)
+
+### (Susan) What about the quality of the data themselves? If one dataset has missing or inconsistent information, wouldn't that also make integration difficult?
+
+@Winnie_(```<p>Absolutely. Data integration can bring together information that differs not only in structure and terminology, but also in quality. Data may be incomplete, inconsistent, outdated or recorded with different levels of precision.</p>```)
+
+@Kai_(```<p>That happens in collection data too. Older records may be missing dates or locations, while newer records may contain much more detailed information. The difference does not necessarily mean that one dataset is useless, but it does affect how the data can be compared and interpreted.</p>```)
+
+@Winnie_(```<p>Exactly. **Data quality is an important challenge in integration, but it is a broad topic in its own right.**</p>
+<p><em>We will not explore it in detail here; there is a separate course on data quality.</em></p>
+<p>For now, it is enough to recognise that the quality and completeness of the source data affect what can be integrated and what conclusions can be drawn.</p>```)
+
+@Dave_(```<p>And then there are **licensing and access restrictions**. Some datasets are openly available, others require permission, and some have unclear or incompatible licenses. That affects whether and how you can integrate them.</p>```)
+
+@Winnie_(```<p>Which brings us back to Open Science practices. Many of these challenges can be reduced when researchers and collection professionals share data with clear documentation, standard formats, persistent identifiers and appropriate licensing.</p>```)
+
+### (Susan) So the challenges aren't necessarily reasons not to integrate. They're more like obstacles that good practices can help overcome?
+
+@Winnie_(```<p>Exactly. Recognising these challenges helps explain why the field has developed certain standards and practices.</p>```)
+
+**In a nutshell:**
+
+Data integration faces challenges including 
+ - structural and semantic heterogeneity;
+ - inconsistent or missing identifiers;
+ - insufficient documentation and metadata;
+ - differences in data quality;
+ - varying access conditions and licenses. 
+
+These challenges help explain why practices like controlled vocabularies, persistent identifiers, good documentation and data-quality checks are important.
+
+See also the WiNoDa courses on
+- RDM - Core concepts of data quality in research data management
+- RDM - Data Governance. Strategies for quality improvement in collection data
+- RDM - Professional Data Curation and Metadata Standards
+
+
