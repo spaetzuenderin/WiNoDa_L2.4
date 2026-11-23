@@ -1504,7 +1504,7 @@ They help
 >  **PIDs are treated extensively in the WiNoDa courses on**
 >> **Reusing Object-related Research Data.** 2026 by Sophie Kobialka (ORCID: https://orcid.org/0000-0002-6255-0652) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
 >
->>- RRP - Searching for object-related research data
+>>**Searching for object-related research data.** (forthcoming)
 
 
 
@@ -1529,16 +1529,194 @@ width="100%"-->
 
 <div style="flex: 1; min-width: 0;">
 
->[!TIP] **Examples of controlled vocabularies, authority data and PIDs**
+>[!NOTE] **Examples of controlled vocabularies, authority data and PIDs**
 >
->>**Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>Different resources support different aspects of data integration. Some resources also overlap in function.
 >
->>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
->
->>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>**Controlled vocabularies** provide agreed terms for describing concepts.
+>>- **Darwin Core** (https://dwc.tdwg.org/) – a body of standards and terms for sharing information about biodiversity.
+>>- **ABCD** (https://www.tdwg.org/standards/abcd/) – a comprehensive standard for exchanging information about biological specimens and observations, including natural-history collection data.
+>>- **GBIF Backbone Taxonomy** (https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c) – a taxonomic reference resource that brings together scientific names, synonyms and taxonomic relationships.
+>>- **Catalogue of Life** (https://www.catalogueoflife.org/) – a global, expert-based catalogue of species and their classifications.
+>>- **FISH terminologies** (https://heritage-standards.org.uk/terminology/) – structured terminology resources for archaeology and heritage, including archaeological objects, monuments, events and evidence.
+>>- **Getty Art & Architecture Thesaurus** (https://www.getty.edu/research/tools/vocabularies/aat/) – a structured vocabulary for concepts related to art, architecture and material culture.
 
 </div>
 </div>
+
+
+>[!NOTE] 
+>**Museums and other collections** normally use several complementary resources rather than one universal vocabulary:
+>>- **Spectrum** (https://collectionstrust.org.uk/spectrum/spectrum-5/) – a collection-management standard describing procedures and the information to record.
+>>- **Collections Trust terminology guidance** (https://collectionstrust.org.uk/terminology-guidance/) – guidance on selecting appropriate sources of standard terminology.
+>>- **CIDOC CRM** (https://www.cidoc-crm.org/) – a conceptual model for representing and connecting cultural-heritage information.
+>>- **Getty vocabularies** (see above) – controlled vocabularies for areas such as objects, materials, techniques, places and people.
+>The appropriate disciplinary vocabulary depends on the collection and the information being described. A natural-history museum may use taxonomic references, while an archaeology or art museum may use vocabularies for object types, materials, periods, places or people.
+
+>[!NOTE]
+>**Authority data** provides information about specific entities and helps bring together variant names or distinguish between similar entities.
+>>- **Gemeinsame Normdatei (GND)** (https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) – authority records for people, organisations, conferences and events, geographic entities, subjects and works.
+>>- **Wikidata** (https://www.wikidata.org/) – a collaboratively edited knowledge base containing structured information and identifiers for many kinds of entities.
+
+>[!NOTE]
+>**Persistent identifiers** provide stable references to entities or resources.
+>>- **ORCID** ([https://orcid.org/](https://orcid.org/)) – persistent identifiers for individual researchers.
+>>- **ROR** ([https://ror.org/](https://ror.org/)) – persistent identifiers for research organisations and funders.
+>>- **DOI** ([https://www.doi.org/](https://www.doi.org/)) – persistent identifiers for digital objects such as publications, datasets and other research outputs. DataCite provides DOI services for many research datasets.
+>
+>The list is not exhaustive, and these categories are not completely separate. 
+>For example, authority records may include persistent identifiers, and controlled vocabularies or taxonomic reference resources may assign identifiers to their terms or entities. 
+>Resources such as the GBIF Backbone Taxonomy may therefore have both vocabulary-like and authority-like functions.
+
+>[!NOTE]
+>The distinction used here is based on the main purpose of each resource:
+>>- **Controlled vocabularies and reference resources** help describe, classify and organise information.
+>>- **Authority data** helps identify and distinguish particular entities.
+>>- **Persistent identifiers** provide stable references that allow entities and resources to be connected across systems.
+>|Resource type|Main question|Main function|Examples|
+>|---|---|---|---|
+>|Controlled vocabulary|“Which agreed term describes this concept?”|**Standardises terminology.**|Darwin Core, Getty AAT|
+>|Norm data / authority data|“Which particular entity is this?”|**Describes and distinguishes entities.**|GND, Wikidata|
+>|Persistent identifier|“What stable identifier can we use to refer to this entity or resource?”|**Provides a stable reference.**|ORCID, ROR, DOI|
+
+
+
+
+>[!TIP]
+>**See also the WiNoDa course on** 
+>> **Professional Data Curation and Metadata Standards**. © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
+
+### Quiz 7
+
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+
+width="100%"-->
+
+</div>
+
+<div class="persona--winnie">
+
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+
+</div>
+</div>
+
+{{1-2}}
+<section>
+
+<!-- question 1: 03_004_0677_Multiple-Choice_1 -->
+
+**What is the main purpose of a persistent identifier?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. A persistent identifier provides a stable reference that can help distinguish and connect a particular entity or resource across systems."
+data-text-failed="Not quite. A PID provides a stable reference to an entity or resource. It does not guarantee data quality, standardise file formats, replace documentation, or centralise information."
+-->
+[( )] To guarantee that the associated data are accurate.
+
+[(X)] To provide a stable reference to a particular entity or resource.
+
+[( )] To ensure that all datasets use the same file format.
+
+[( )] To replace metadata and documentation.
+
+[( )] To store all related information in one central database.
+
+[[?]] Think about what makes an identifier useful when the same resource is referenced by different systems.
+
+</section>
+
+{{2-3}}
+<section>
+
+<!-- question 2: 03_004_0677_Multiple-Choice_2 -->
+
+**Which pairing is correct?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. ORCID identifies researchers, ROR identifies research organisations and a DOI can identify a publication, dataset or other research output."
+data-text-failed="Not quite. ORCID IDs identify researchers, ROR IDs identify research organisations and DOIs identify objects such as publications and datasets."
+-->
+[( )] ORCID ID — research organisation; ROR ID — dataset; DOI — researcher.
+
+[(X)] ORCID ID — researcher; ROR ID — research organisation; DOI — publication or dataset.
+
+[( )] ORCID ID — taxonomic term; ROR ID — archaeological site; DOI — controlled vocabulary.
+
+[( )] ORCID ID — collection-management procedure; ROR ID — specimen; DOI — institution.
+
+[( )] ORCID ID — file format; ROR ID — metadata field; DOI — authority record.
+
+[[?]] Consider which identifiers are associated with individual researchers, institutions and research outputs.
+
+</section>
+
+{{3-4}}
+<section>
+
+<!-- question 3: 03_004_0677_Multiple-Choice_3 -->
+
+**Why are persistent identifiers important for data integration?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Persistent identifiers provide stable, unique references that help connect records about the same specimen, site, publication or other entity across different datasets."
+data-text-failed="Not quite. Persistent identifiers help reliably identify the same entity across datasets. They don't affect loading speed, guarantee quality, translate terminology, or replace documentation."
+-->
+[( )] They make datasets load faster.
+
+[( )] They guarantee data quality.
+
+[(X)] They provide a reliable way to identify the same entity across different datasets.
+
+[( )] They automatically translate between different terminologies.
+
+[( )] They replace the need for documentation.
+
+[[?]] Think about how different datasets can refer to the same specimen, site or publication without relying only on its name.
+
+</section>
+
+{{4-5}}
+<section>
+
+<!-- question 4: 03_004_0677_True-False -->
+
+**A persistent identifier automatically makes data interoperable and removes the need for metadata.**
+
+<!--
+data-randomize
+
+data-text-solved="Correct. A PID helps identify and connect an entity or resource, but users still need sufficient metadata to understand what it refers to. A PID does not by itself make data meaningful or interoperable."
+data-text-failed="Not quite. A PID supports identification and linking, but it does not automatically make data interoperable or replace metadata and documentation. A DOI, for example, is accompanied by metadata that enables connections with researchers and organisations."
+-->
+[( )] True
+
+[(X)] False
+
+[[?]] Consider what additional information is needed to understand an identified resource and its relationships with other entities.
+
+</section>
+
 
 
 
