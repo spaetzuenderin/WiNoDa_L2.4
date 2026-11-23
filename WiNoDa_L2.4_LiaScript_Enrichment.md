@@ -1717,6 +1717,233 @@ data-text-failed="Not quite. A PID supports identification and linking, but it d
 
 </section>
 
+## 8. Integrating heterogeneous data sources
+
+### Challenges and approaches
+
+@Susan(```Datasets can differ in their structure, terminology, documentation and quality. <p class="persona__heading">How can we integrate data from such heterogeneous sources?</p>```)
+
+@Winnie_(```
+
+<p>Integrating data from very different sources is one of the central challenges of data integration. **Heterogeneous data sources** differ in how they are structured, formatted, described or understood.</p>
+
+<p>For example, one dataset may be stored in a spreadsheet, another in a collection-management system and a third in a publication or GIS database. They may use different field names, data formats and levels of detail.</p>
+
+<p>Integration does not necessarily mean copying all the information into one database. It means creating meaningful connections between the sources so that their information can be searched, compared or used together.</p>
+```)
+
+@KaiH(```So the original data can remain in the systems where they are managed?```)
+
+@Winnie_(```
+
+<p>Yes. A dataset can remain in its original system and structure. When data are exchanged or made available for cross-dataset searching, their fields and concepts can be mapped, transformed or linked to corresponding concepts in another source.</p>
+
+<p>This often involves enriching the original data. For example, records can be linked to authority records for people, institutions, geographical places or taxonomic concepts. Persistent identifiers can help establish these links, including identifiers provided by services such as Wikidata.</p>
+```)
+
+@Dave_(`But creating those links is not just a matter of matching field names. We need to understand what the original fields and terms actually mean.`)
+
+@Winnie_(```
+
+<p>Exactly. Integration requires interpretation. We need to identify corresponding concepts and document how the mapping was made.</p>
+
+<p>Two fields may look similar but represent different things. For example, one field called “date” may record the date of collection, while another records the date of publication. Connecting them without checking could create misleading results.</p>
+
+<p>The same applies to automated methods such as **Named Entity Recognition**, or NER. These methods can help identify names of people, places, organisations or other entities in text. However, names can be ambiguous, and automated matches may be wrong. Expert review is therefore important, especially when the result will be used to create links or support research conclusions.</p>
+
+<p>**Meaning matters more than format.** Successful integration creates connections while preserving the meaning, context, provenance and relevant limitations of the original data.</p>
+```)
+
+@SusanH(```So a common format can make data easier to exchange, but it does not automatically make the data meaningful together?```)
+
+@Winnie_(```<p>That is right.</p> <p>Aligning formats is useful, but it is only one part of integration. We also need to consider what the data describe, how they were created, how reliable or complete they are, and whether apparently similar concepts are genuinely comparable.</p> ```)
 
 
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a Nutshell  
 
+<!-- style="color: #2581C4" -->
+<section>
+Integrating heterogeneous data sources means creating meaningful connections between sources that differ in structure, format, terminology or context. This can involve mappings, shared concepts, standards, authority records, persistent identifiers and relationships, without requiring the original datasets to be centralised or made identical.
+</section>
+>[!TIP] 
+>**To learn more about Named Entity Recognition (NER) check the WiNoDa course:**
+>>**ATR 3 – Deep Dive: Transcription and semantic enrichment.** © 2026 by Asta v. Schröder (ORCID: [https://orcid.org/0009-0007-5852-771X](https://orcid.org/0009-0007-5852-771X)) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0). (DOI forthcoming)
+
+### Example 1: Archaeology
+
+@ExampleA(```
+<p>In archaeology, one project might describe a site, context and plant assemblage in a database, while another records similar information in spreadsheets or publications. The datasets may not use the same categories or terminology.
+<br>
+Integration can involve mapping the different structures and terms to a shared framework. For example, information from both datasets might be related to common concepts such as a site, an excavation event, a period, a plant remain or a publication.
+</p>
+<p>
+**A conceptual model can help describe these relationships** without forcing every source to use the same database structure. Conceptual models such as **CIDOC CRM** are designed to support the integration and exchange of heterogeneous cultural-heritage information. They provide a shared way to represent concepts and relationships while allowing the original sources to retain their own structures and details.
+</p>
+<p>
+**However, the original sources and their context still matter.**
+<br>
+ A plant assemblage recorded from a specific excavation context should not be treated as equivalent to an observation with no information about its archaeological context.
+Integration should therefore make connections clearer without hiding important differences between the sources.
+</p>
+```)
+
+### Example 2: Biodiversity
+
+@ExampleB(```TODO```)
+
+### Example 3: Natural History Collections
+
+@ExampleC(```
+<p>
+In a natural-history collection, one museum might record a specimen using fields such as “collector,” “collection date” and “locality.” Another institution may use different field names, different formats or different levels of detail.
+The records can still be connected if their information is interpreted and mapped to **shared concepts**. A taxonomic reference can help align scientific names, while authority records for places, people or institutions can make the records easier to compare.
+</p>
+<p>
+**Standards** developed for biological collections, such as **ABCD**, can provide a more specific shared structure for exchanging information about specimens and observations. 
+</p>
+<p>
+**However, using a shared standard does not remove the need to check what the original fields mean or how complete and precise the information is.**
+<br>
+For example, one institution’s “locality” might refer to a precise collecting site, while another’s might refer only to a broader region. The records can still be connected, but the links should be checked carefully, and any differences in meaning should be documented rather than hidden.
+</p>
+```)
+
+### Quiz 8
+
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+
+width="100%"-->
+
+</div>
+
+<div class="persona--winnie">
+
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+
+</div>
+</div>
+
+{{1-2}}
+<section>
+
+<!-- question 1: 02_011_0434_Multiple-Choice_1 -->
+
+**What is meant by "integrating heterogeneous data sources"?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Integration creates meaningful connections between different sources without necessarily centralising the data or making the original datasets identical."
+data-text-failed="Not quite. Integration does not necessarily mean centralising the original data, converting the original data structure, removing records from the original data, or standardising records from the original data. It means creating meaningful connections between heterogeneous sources."
+-->
+[( )] Copying all data into one central database.
+
+[( )] Converting every dataset into exactly the same original structure.
+
+[(X)] Creating meaningful connections between sources that may differ in structure, format, terminology or context.
+
+[( )] Removing records that do not use the same terminology.
+
+[( )] Replacing the original datasets with a standardised dataset.
+
+[[?]] Think about what integration aims to achieve when information comes from different systems.
+
+</section>
+
+{{2-3}}
+<section>
+
+<!-- question 2: 02_011_0434_Multiple-Choice_2 -->
+
+**Why must we check the meaning of fields and terms before connecting records from different sources?** 
+
+*Select all that apply.*
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Field names and terms do not always have the same meaning across datasets. Checking their context, definitions and level of detail helps prevent misleading connections."
+data-text-failed="Not quite. Different terminology does not automatically make records unusable. The terms can often be interpreted and mapped to shared concepts, while preserving the original wording and context."
+-->
+[[X]] Similar field names may represent different concepts or types of information.
+
+[[X]]  The same term may be used differently in different datasets.
+
+[[X]]  Differences in context or level of detail can affect whether records are genuinely comparable.
+
+[[ ]] Field names must be standardised before the corresponding information can be connected.
+
+[[ ]] Records with different terminology need to be removed.
+
+[[?]] Consider how field definitions, context and levels of detail can influence whether information from different sources can be meaningfully compared.
+
+</section>
+
+{{3-4}}
+<section>
+
+<!-- question 3: 02_011_0434_Multiple-Choice_3 -->
+
+**What is the role of standards such as ABCD or Darwin Core in data integration?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. ABCD and Darwin Core provide shared terms and structures that can make biodiversity and collection information easier to exchange and compare."
+data-text-failed="Not quite. These standards support comparability and exchange, but they do not make the original data identical, automatically correct errors or remove the need for identifiers, documentation and interpretation."
+-->
+[( )] They ensure that all institutions collect data in exactly the same way.
+
+[( )] They replace the need for persistent identifiers and documentation.
+
+[(X)] They help describe and exchange biodiversity and collection information in more comparable ways.
+
+[( )] They automatically correct errors and fill gaps in collection records.
+
+[( )] They require all original datasets to be moved into one system.
+
+[[?]] Think about how shared standards can help different institutions describe and exchange information.
+
+</section>
+
+{{4-5}}
+<section>
+
+<!-- question 4: 02_011_0434_Multiple-Choice_4 -->
+
+**Which statement about automating the process of connecting information from different sources is true?**
+
+<!--
+data-randomize
+data-hint-button="2"
+data-text-solved="Correct. Automation can make integration more efficient, but ambiguous or uncertain matches should be checked by someone with relevant domain knowledge."
+data-text-failed="Not quite. Automated methods can help identify possible entities and connections, but they may misinterpret terms or create incorrect matches. Expert review and documentation are still important."
+-->
+[(X)] Automated methods can suggest connections, but ambiguous results may need expert review.
+
+[( )] Automated methods can determine the meaning of every field without additional information.
+
+[( )] Automated methods make differences between source datasets irrelevant.
+
+[( )] Automated methods can connect records reliably whenever they contain similar words.
+
+[( )] Automated methods remove the need to document how connections were created.
+
+[[?]] Consider the limitations of automated entity recognition and matching when names or terms are ambiguous.
+
+</section>
