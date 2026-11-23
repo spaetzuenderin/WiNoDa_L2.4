@@ -2038,6 +2038,9 @@ A well-known example of OpenRefine in action is Christie Bahlai’s blog post �
 
 >[!CAUTION] (Diese Übung muss noch genauer spezifiert werden - warum nicht den Datensatz und ein Beispiel aus der Winter School nehmen? am besten wäre eine Übung, bei der man die Schreibweise eines Personen-Namens oder Institution vereinheitlicht, dann kann man in der nächsten Runde anlegen und Person/Institution via PID mit authority record verknüpfen...)
 
+>[!TIP] **How it works**
+> ... add content ...
+
 >[!IMPORTANT] Exercise: Enriching a small dataset with OpenRefine 
 >>or link to Maureens course here and leave as that? 
 >>or reuse one of the tutorials below in reference section, e.g. from the winter school dataset?
@@ -2182,7 +2185,9 @@ Bionomia is an online service that supports lightweight curation of links betwee
 ### Bionomia Exercise
 
 >[!TIP] **How it works**  
->Bionomia processes occurrence data from GBIF and looks for specimen records that contain relevant person-related fields such as `recordedBy` or `identifiedBy`. Users can log in with ORCID, claim specimens, or help attribute specimens to other people when the evidence supports the match. Enriched links can then be made available through Bionomia’s publication workflow.
+>Bionomia processes occurrence data from GBIF and looks for specimen records that contain relevant person-related fields such as `recordedBy` or `identifiedBy`. 
+>Users can log in with their ORCID, claim specimens, or help attribute specimens to other people when the evidence supports the match. 
+>Enriched links can then be made available through Bionomia’s publication workflow.
 
 >[!IMPORTANT] Exercise: Connect a collector to a persistent identity with Bionomia
 >1. Log into 
