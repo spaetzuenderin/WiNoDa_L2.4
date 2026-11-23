@@ -175,7 +175,7 @@ __Learning Objectives for this course__
 
 <!--- **LO-ID | Complete Learning Objective**  --->
 
-**Chapter 1** | **Why should we enrich data?**
+**Part 1: Why should we enrich data?**
 - **02\_011\_0412** | Learners are able to explain the term data integration.
 - **WiNoDa\_02\_011\_0417a** | Learners are able to explain goals **and benefits** of data integration.
 - **01\_001\_0157** | Learners are able to explain the application of open science practices in research.
@@ -186,7 +186,7 @@ __Learning Objectives for this course__
 - **02\_011\_0434** | Learners are able to explain data integration with heterogeneous data sources.
 
 
-**Chapter 2 - Setting** | **How can we enrich data?**
+**Part 2: How can we enrich data?**
 - **WiNoDa\_02\_011\_0424a** | Learners are able to name **open online tools and services for data enrichment**.
 - **02\_011\_0426** | Learners are able to name software for data integration.
 - **03\_004\_0684** | Learners are able to apply persistent identifiers for referencing.
@@ -208,6 +208,7 @@ and Anita, a graduate student in archaeobotany,
 The team is backed up by Winnie, who works as a data steward at a data competency centre.
 ![Winnie](images/Winnie_protagonist.PNG)
 
+# Part 1: *Why* should we enrich data?
 ## 1. Data integration, enrichment and contextualisation  
 
 Kai, Susan, Anita, Dave and Winnie are meeting at the museum café.
@@ -1947,3 +1948,5 @@ data-text-failed="Not quite. Automated methods can help identify possible entiti
 [[?]] Consider the limitations of automated entity recognition and matching when names or terms are ambiguous.
 
 </section>
+
+# Part 2: *How* should we enrich data?
