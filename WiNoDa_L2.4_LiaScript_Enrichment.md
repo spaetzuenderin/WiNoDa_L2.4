@@ -1998,17 +1998,18 @@ Yes - but keep in mind: **we don't always have to start by integrating whole dat
 
 
 
- >[!NOTE] 
- >We will not explore every platform in detail. Instead, we will use selected examples to practise different kinds of data enrichment.
+>[!NOTE] 
+>We will **not** explore every platform in detail. 
+>Instead, we will use selected examples to practise different kinds of data enrichment.
 
 ## Open Refine
 
 @KaiH(```
 Isn't OpenRefine a software tool for data integration?
- ```)
+```)
 
- @Dave_(```
- <p>
+@Dave_(```
+<p>
 That's right. 
 <br>
 OpenRefine is a powerful free, open-source tool for cleaning messy data, transforming it from one format into another, and enriching it with web services and external data. In fact, it can do much more than we can cover today.
@@ -2030,7 +2031,7 @@ OpenRefine is particularly useful for working with tabular data. For example, yo
 
 A well-known example of OpenRefine in action is Christie Bahlai’s blog post “Help me, I’m covered in bees!”, which shows how OpenRefine can be used to clean specimen data.
 
- [https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/](https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/)
+[https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/](https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/)
 
 </details>
 
