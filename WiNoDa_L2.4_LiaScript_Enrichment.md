@@ -908,7 +908,8 @@ Why can sharing enriched data be described as “giving back” to the research 
 @Winnie_(```<p>Exactly. **Data quality is an important challenge in integration, but it is a broad topic in its own right.**</p>
 <p>For now, it is enough to recognise that the quality and completeness of the source data affect what can be integrated and what conclusions can be drawn.</p>```)
 
->[!TIP] WiNoDa prepared a detailed course on data quality:
+>[!TIP] 
+> **WiNoDa prepared a detailed course on data quality:**
 >> **Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272 ) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
 
 ### Access and licences
@@ -1137,7 +1138,7 @@ In a nutshell:
 A **controlled vocabulary** is an agreed list of terms used to describe concepts consistently. It can reduce variation in terminology and make data easier to search, compare and integrate.
 
 
-## Quiz 5
+### Quiz 5
 <!---
 style
 .lia-figure {
@@ -1307,5 +1308,237 @@ data-text-failed="Not quite. CIDOC CRM is a conceptual model or ontology. It hel
 [( )] False
 
 </section>
+
+## 6. Authority data
+### Benefits
+@AnitaH(```What is authority data, and how does it help with data integration?```)
+
+@Winnie_(```<p>**Authority data** provides standardised information about specific entities, such as people, places, organisations, works or geographic features.</p>
+
+<p>An **authority record** usually brings together a preferred name, alternative names and other information about the entity. It can also provide an **identifier** that distinguishes that entity from others.</p>
+
+<p>Names can vary between sources. A place may have different names in different languages or periods, two people may have similar or identical names, or one person may use different names at different points in their life, for example due to marriage. Authority data can bring these variants together under one recognised record and help distinguish between entities that should not be confused.</p>
+
+<p>**For example:** Suppose one archaeological dataset refers to a site by its local name, another uses a historical name and a publication uses a different spelling. Norm data can help connect these records: if the different names are linked to the same authority record, users and computer systems have a better basis for recognising that the records refer to the same site.</p>
+
+<p>The authority record may also connect the site to related places, people, events or publications.</p>
+
+<p>The "[Gemeinsame Normdatei (GND)](https://www.dnb.de/EN/Service/Glossar/_functions/glossar.html?cms_lv3=775280&cms_lv2=58642), maintained cooperatively under the coordination of the [German National Library (DNB)](https://gnd.network/Webs/gnd/EN/AboutGND/GNDNormdatensaetze/definitionNormdaten.html), is one example of an authority file. It includes records for entities such as people, organisations, conferences and events, geographic places, subjects and works. Each GND entity has a unique and stable GND identifier.</p>
+```)
+
+### Limitations
+
+@AnitaH(```Does authority data make the connection automatically?```)
+
+@Winnie_(```
+<p>No. It supports the connection, but the identification still needs to be checked. Similar names may refer to different entities, and one entity may have several names or historical forms. **Good documentation** and, where available, **persistent identifiers** can make these decisions clearer and more reliable.</p>
+
+<p>Authority data can therefore act as a shared reference point between datasets. It does not replace a controlled vocabulary; the two often work together.</p>
+
+<p>A controlled vocabulary provides agreed terms for **describing** concepts or categories. Authority data, by contrast, helps **identify** particular entities, such as a specific archaeological site, historical person, institution or publication.</p>
+
+<p>Thus, a controlled vocabulary gives us terms for concepts, while authority data helps us identify particular entities.</p>
+
+<p>**For example**, a controlled vocabulary might provide terms for types of archaeological material, while authority data might identify a particular archaeological site, historical person, institution or publication.</p>```)
+
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a Nutshell:  
+
+<!-- style="color: #2581C4" -->
+Authority data provides standardised information and identifiers for specific entities. 
+
+<!-- style="color: #2581C4" -->
+By bringing together name variants and distinguishing between similar entities, it helps connect records about the same people, places, works or organisations across datasets.
+
+
+### Quiz 6
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under a large question mark](images/Quiz-Winnie.PNG)<!--
+
+width="100%"-->
+
+</div>
+
+<div class="persona--winnie">
+
+Let's repeat what we have learned.<br>
+Klick the arrows on the green button to proceed.
+
+</div>
+</div>
+
+{{1-2}}
+<section>
+
+<!-- question 1: 03_005_0719_Multiple-Choice_1 -->
+
+**Which statement best describes authority data?**
+
+<!--
+data-randomize
+data-text-solved="Correct. Authority data describes specific entities, such as people, places, organisations or works, and helps distinguish between entities with similar or varying names."
+data-text-failed="Not quite. Authority data provides standardised information about specific entities and can bring together variant names or help distinguish between similar entities. It does not define file formats, automatically correct data, centralise datasets, or provide terms for general concepts."
+-->
+[( )] It provides a list of file formats for exchanging research data.
+
+[(X)] It provides standardised information about specific entities and helps distinguish between them.
+
+[( )] It automatically corrects missing or inaccurate data.
+
+[( )] It stores all datasets in one central database.
+
+[( )] It provides only the preferred term for each concept.
+
+[[?]] Think about the types of entities that authority records describe and how they help distinguish between them.
+
+</section>
+
+{{2-3}}
+<section>
+
+<!-- question 2: 03_005_0719_Multiple-Choice_2 -->
+
+**Which statement best distinguishes a controlled vocabulary from authority data?**
+
+<!--
+data-randomize
+data-text-solved="Correct. A controlled vocabulary might provide terms for types of archaeological material, while authority data might identify a particular archaeological site, person or publication."
+data-text-failed="Not quite. Controlled vocabularies and authority data often work together, but they have different main purposes. Controlled vocabularies provide agreed terms for concepts; authority data helps identify particular entities."
+-->
+[( )] A controlled vocabulary identifies particular entities, while authority data provides general terms for concepts.
+
+[( )] A controlled vocabulary and authority data are exactly the same thing.
+
+[(X)] A controlled vocabulary provides agreed terms for concepts, while authority data helps identify particular entities.
+
+[( )] A controlled vocabulary is used only in biodiversity research, while authority data is used only in archaeology.
+
+[( )] Authority data replaces the need for controlled vocabularies when integrating datasets.
+
+[[?]] Consider the difference between describing a category of things and identifying one particular person, place or publication.
+
+</section>
+
+{{3-4}}
+<section>
+
+<!-- question 3: 03_005_0719_Multiple-Choice_3 -->
+
+**An archaeological site is described by a local name in one dataset, a historical name in another and a different spelling in a publication. How could authority data help?**
+
+<!--
+data-randomize
+data-text-solved="Correct. Linking the different names to one authority record can help users and computer systems recognise that the records refer to the same site."
+data-text-failed="Not quite. Authority data are intended to support the reliable identification and disambiguation of entities. They can support the identification by linking different names to an authority record, but they do not automatically assess the archaeological interpretation, restructure the datasets, replace documentation, or guarantee that the identification is correct."
+-->
+[( )] It would automatically decide which source contains the most accurate archaeological interpretation.
+
+[(X)] It could link the different names to one authority record, providing a basis for recognising that they refer to the same site.
+
+[( )] It would convert all three sources into the same database structure.
+
+[( )] It would remove the need to document the different names.
+
+[( )] It would guarantee that the site has been identified correctly.
+
+[[?]] Think about how different names for the same entity can be brought together without assuming that the identification is automatically correct.
+
+</section>
+
+
+## 7. Benefits of Persistent identifiers
+
+@KaiH(`What are persistent identifiers, and how do they support data integration?`)
+
+@Winnie_(```
+
+<p>We have seen how controlled vocabularies can standardise terms and how authority data can help identify specific entities.</p>
+
+<p>A **persistent identifier**, or **PID**, is a stable reference to a particular entity or resource. Unlike an ordinary name or an unstructured local code, a PID is intended to remain usable over time and to distinguish its subject from other entities or resources.</p>
+
+<p>A PID can identify different kinds of things. An **ORCID ID** identifies a researcher, a **ROR ID** identifies a research organisation and a **DOI** identifies a publication, dataset or other research output.</p>
+
+<p>Take for instance museums - collection records often use local catalogue numbers, specimen numbers or accession numbers. These are valuable within the institution that created them, but they may not be unique or recognisable outside that context.</p>
+
+<p>A persistent identifier can provide a stable reference that other systems can use when linking to the same specimen, collection record, dataset or publication. For example, a collection record might be connected to the researcher who identified a specimen, the institution holding it and a publication discussing it.</p>
+
+<p>A PID allows different systems to refer to the same thing without relying only on its name. Names can change, vary, or be ambiguous. A PID provides a more stable point of reference. It can also help preserve links when a resource moves to a different website or when its metadata is updated.</p>
+
+<p>However, a PID does not automatically make data meaningful or interoperable. The identifier must be recorded correctly and accompanied by enough metadata for users to understand what it refers to. It also needs to be managed through an appropriate service so that it can continue to resolve to relevant information.</p>
+
+<p>PIDs can also help connect research outputs with the people and organisations responsible for them. For example, a DOI can identify a dataset, an ORCID ID can identify its creator and a ROR ID can identify the associated institution. Together, these identifiers can make relationships between outputs, contributors and organisations easier to trace.</p>
+
+<p>In this way, PIDs support both data integration and attribution. They do not replace authority data or controlled vocabularies, but they can work together with them.</p>
+```)
+
+
+
+<!-- style="color: #AFCA0B; font-family: Arial; font-size: 1.5em;" -->
+In a Nutshell:  
+
+<!-- style="color: #2581C4" -->
+<section>
+Persistent identifiers are stable references to entities or resources. 
+
+They help 
+- connect records across systems;
+- distinguish between entities with similar names; and 
+- make relationships between data, people and organisations easier to trace.
+</section>
+
+
+> [!TIP]
+>  **PIDs are treated extensively in the WiNoDa courses on**
+>> **Reusing Object-related Research Data.** 2026 by Sophie Kobialka (ORCID: https://orcid.org/0000-0002-6255-0652) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0. (DOI forthcoming)
+>
+>>- RRP - Searching for object-related research data
+
+
+
+### Further information
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+width="100%"-->
+
+</div>
+
+<div style="flex: 1; min-width: 0;">
+
+>[!TIP] **Examples of controlled vocabularies, authority data and PIDs**
+>
+>>**Core concepts of data quality in research data management.** © 2026 by Maureen Fonji Atemkeng (ORCID: https://orcid.org/0000-0001-6048-9272) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>>**Data Governance. Strategies for quality improvement in collection data.** © 2026 by Asta v. Schröder (https://orcid.org/0009-0007-5852-771X) as part of WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+>
+>>**Professional Data Curation and Metadata Standards.** © 2026 by Anna Lisa Schwartz (https://orcid.org/0000-0003-0391-3879) as part of the WiNoDa Knowledge Lab. Licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. (DOI forthcoming)
+
+</div>
+</div>
+
 
 
