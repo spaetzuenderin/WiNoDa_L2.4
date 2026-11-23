@@ -2056,7 +2056,7 @@ A well-known example of OpenRefine in action is Christie Bahlai’s blog post �
 >
 >Standardising a name improves consistency, but it does not by itself establish identity. To make a reliable connection to a specific person or organisation, we can use a persistent identifier.
 
-### OpenRefine – Learning resources
+### OpenRefine – Learn more
 Here is a curated list of high-quality, freely available OER (Open Educational Resources) on OpenRefine suitable for training and self-study in data curation and biodiversity data:
 
 <!---
@@ -2144,3 +2144,86 @@ width="100%"-->
 >> [https://guides.library.illinois.edu/openrefine/resources](https://guides.library.illinois.edu/openrefine/resources) – sample datasets.
 
 
+## Bionomia
+
+@Susan(```
+<p>I see. I can use OpenRefine to standardise e.g. varied spellings of a collector's name. </p>
+<p class="persona__heading">But how can I be sure that this collector really designates a specific person and not someone else with the same or a similar name?
+</p>```)
+
+@Winnie_(```
+<p>True - a name is often not enough to identify something unambiguously.<br> 
+“John Smith” could refer to many different people.
+</p>
+<p> 
+A **persistent identifier** gives you a more reliable way to refer to a specific entity. This is useful when the same person, organisation, taxon, or other entity appears in different datasets.<br>
+Instead of trying to make everyone use exactly the same spelling, we can connect different descriptions to the same identifier, such as ORCID for researchers, ROR for organisations, Wikidata for many kinds of entities, and taxonomic identifiers where appropriate. 
+</p>
+```)
+
+<section class="persona--winnie">
+## Bionomia
+In short, you want to connect "**strings** with **things**" — that is, a character sequence with an authority record.
+
+For each example, ask:
+>**What entity does this identifier actually identify?**<br>
+and
+>**How confident am I that this is the right entity?**
+
+**Remember:** Identifiers help us make connections, but interpretation and verification still matter.
+
+Natural-history specimens often contain information about people, such as collectors or identifiers. But names can be ambiguous, incomplete or spelled inconsistently across datasets.
+
+**Bionomia** helps connect people associated with biodiversity specimens to persistent identities.
+
+Bionomia is an online service that supports lightweight curation of links between openly shared occurrence records in GBIF and the identities of collectors and determiners through their ORCID or Wikidata records. It is especially useful when you want to connect a name in a specimen record to a more reliable, persistent identifier.
+</section>
+
+### Bionomia Exercise
+
+>[!TIP] **How it works**  
+>Bionomia processes occurrence data from GBIF and looks for specimen records that contain relevant person-related fields such as `recordedBy` or `identifiedBy`. Users can log in with ORCID, claim specimens, or help attribute specimens to other people when the evidence supports the match. Enriched links can then be made available through Bionomia’s publication workflow.
+
+>[!IMPORTANT] Exercise: Connect a collector to a persistent identity with Bionomia
+>1. Log into 
+>>https://en.bionomia.net/ 
+>using your own ORCID ID. 
+>(*If you do not yet have an ORCID ID, this is a good opportunity to create one!*)
+>2. Explore a record in Bionomia by profile, country or specimen. You can choose your own GBIF contributions first, if there are any, or go to the tab "Help Others".
+>3. Look at the person associated with the specimen and examine the proposed identity.
+>4. Check whether the available information supports the identification. Confirm the attribution only if you are sure of their identity.
+>5. Explore what additional records become connected once the person is identified.
+
+>[!TIP]
+>For more information on how to work with Bionomia, read the published tutorial and follow the hints for data sleuthing on p.21:
+>> Paul, D. L., Shorthouse, D. P., Weeks, A., & Murrell, Z. (2023, March 24). Bionomia for SISRIS Tutorial. Zenodo. Association for Southeastern Biologists, Winston-Salem, North Carolina. [https://doi.org/10.5281/zenodo.7767333](https://doi.org/10.5281/zenodo.7767333)
+
+
+### Bionomia - Learn more
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+width="100%"-->
+
+</div>
+
+<div style="flex: 1; min-width: 0;">
+
+>[!NOTE] **Further reading**
+>> Paul, D. L., Shorthouse, D. P., Weeks, A., & Murrell, Z. (2023, March 24). Bionomia for SISRIS Tutorial. Zenodo. Association for Southeastern Biologists, Winston-Salem, North Carolina. [https://doi.org/10.5281/zenodo.7767333](https://doi.org/10.5281/zenodo.7767333)
+>
+>> Shorthouse, D (2026, August 27). Is Data Publication Anything Other Than a Terminal Event? Evidence from Six Years and 50 Million Curated Links in Bionomia. iDigBio Webinar, August 2027, 2026. [https://www.youtube.com/watch?v=OInyaR14Dbw](https://www.youtube.com/watch?v=OInyaR14Dbw)
+</div>
+</div>
