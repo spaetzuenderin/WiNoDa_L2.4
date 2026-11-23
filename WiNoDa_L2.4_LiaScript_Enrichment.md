@@ -2232,3 +2232,34 @@ width="100%"-->
 >> Shorthouse, D (2026, August 27). Is Data Publication Anything Other Than a Terminal Event? Evidence from Six Years and 50 Million Curated Links in Bionomia. iDigBio Webinar, August 2027, 2026. [https://www.youtube.com/watch?v=OInyaR14Dbw](https://www.youtube.com/watch?v=OInyaR14Dbw)
 </div>
 </div>
+
+
+## WIP Tool for controlled vocabularies
+
+for controlled vocabularies there are these tools:
+- GBIF species matching  https://www.gbif.org/tool/35eY57p7P4ifcF5RF6SKRZ/species-matching
+match to the GBIF/Catalogue of Life taxonomic classification
+Alternativ:
+- ChecklistBank (CLB)  https://www.checklistbank.org/tools/name-match
+
+- Getty AAT + OpenRefine
+
+
+
+- https://nomisma.org/ + OpenRefine
+
+- Archbotlit (ist sehr kompliziert - ich würde es erwähnen/darauf hinweisen, aber nicht für eine Übung einsetzen.)  https://www.wikis.uni-kiel.de/archbotlit/doku.php/start
+
+## WIP Tool for authority data - OSM?
+
+vielleicht etwas mitOpenStreetMap -- MapComplete -- Wikidata
+	an exercise like:
+> 	**Find a museum, archaeological site, monument or other place in OpenStreetMap that has no Wikidata link. Find the corresponding Wikidata item and add the link to OpenStreetMap.**
+
+oder
+
+OWL Places
+https://osm.wikidata.link/
+
+WikiShootMe!
+https://wikishootme.toolforge.org
