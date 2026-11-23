@@ -1950,3 +1950,83 @@ data-text-failed="Not quite. Automated methods can help identify possible entiti
 </section>
 
 # Part 2: *How* should we enrich data?
+
+@Kai_(```
+So, integrating complete datasets can be difficult because different datasets use different formats, terms, identifiers, and ways of describing the same things.
+```)
+
+@Winnie_(```
+Yes - but keep in mind: **we don't always have to start by integrating whole datasets. We can start with improving the data we already have.**  Do you remember our discussion of **data enrichment**?
+```)
+
+@SusanH(```
+**You said that we can enrich existing data by** adding information that makes it more complete, precise, or useful.
+```)
+
+@Winnie_(```
+<p>Exactly. And that information can take many forms.</p> 
+<p> You might: </p>
+<ul>
+<li> Add a persistent identifier.</li>
+<li> Link a name to an authority record.</li>
+<li> Add geographic information.</li>
+<li> Use a shared vocabulary. </li>
+<li> Link an image to a concept.</li>
+</ul>
+
+<p>These may seem like small changes. But when they use shared identifiers and concepts, they can make existing data easier to find, connect and reuse.</p>
+```)
+
+## Some online tools and services for data enrichment
+ @AnitaH(``` Can you name some online tools and services for data enrichment?
+ ```)
+
+ @Winnie_(```
+<p>Yes. Many open tools and services can help you improve, connect, or contribute information to existing data. Some are databases or data platforms; others are software tools or online services. Many of them are open, community-maintained resources to which many people can contribute. They do not all serve the same purpose.
+</p>
+<p>
+**For example:**</p>
+<ul>
+<li>**[OpenRefine](https://openrefine.org/)** helps you clean, transform, standardise, and enrich tabular data.</li>
+<li>**[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)** helps you identify and connect entities using structured data and persistent identifiers.</li>
+<li>**[Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)** lets you add structured information to openly licensed digital media files.</li>
+<li>**[Bionomia](https://de.bionomia.net/)** helps link people associated with natural-history specimens to persistent identities.</li>
+<li>**[ArchbotLit](https://www.wikis.uni-kiel.de/archbotlit/)** supports work with archaeobotanical information and literature.</li>
+<li>**[OpenStreetMap](https://www.openstreetmap.org/)** provides shared geographic information that people can view, use, and improve.</li>
+</ul> 
+```)
+
+
+
+ >[!NOTE] 
+ >We will not explore every platform in detail. Instead, we will use selected examples to practise different kinds of data enrichment.
+
+## Open Refine
+
+@KaiH(```
+Isn't OpenRefine a software tool for data integration?
+ ```)
+
+ @Dave_(```
+ <p>
+That's right. 
+<br>
+OpenRefine is a powerful free, open-source tool for cleaning messy data, transforming it from one format into another, and enriching it with web services and external data. In fact, it can do much more than we can cover today.
+</p>
+<p>
+But we don't need a complete OpenRefine tutorial here. Instead, we'll use a small exercise to show the basic idea:
+</p>
+<p>
+**Start with existing data, identify something that can be improved, and connect it to a shared source where appropriate.**
+</p>
+<p>
+OpenRefine is particularly useful for working with tabular data. For example, you might have a spreadsheet of collection records where the same place or person appears in several slightly different forms, and you can use OpenRefine to reconcile the variations into a standardised form.
+</p>
+```)
+
+<details>
+<summary>  "Help me, I'm covered in bees!" </summary>
+A well-known example of OpenRefine in action is Christie Bahlai’s blog post “Help me, I’m covered in bees!”, which shows how OpenRefine can be used to clean specimen data.
+ 
+ [https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/](https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/)
+</details>
