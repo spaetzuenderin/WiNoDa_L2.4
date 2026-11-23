@@ -2025,8 +2025,103 @@ OpenRefine is particularly useful for working with tabular data. For example, yo
 ```)
 
 <details>
-<summary>  "Help me, I'm covered in bees!" </summary>
+
+<summary>"Help me, I'm covered in bees!" </summary>
+
 A well-known example of OpenRefine in action is Christie Bahlai’s blog post “Help me, I’m covered in bees!”, which shows how OpenRefine can be used to clean specimen data.
- 
+
  [https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/](https://practicaldatamanagement.wordpress.com/2014/05/16/help-me-im-covered-in-bees-or-using-openrefine-to-clean-specimen-data/)
+
 </details>
+
+** Exercise**
+
+>[!CAUTION] **Note: A suggested match is not automatically a correct match.**
+>Reconciliation can help us find possible connections, but we still need to check whether the connection makes sense.
+>
+>Standardising a name improves consistency, but it does not by itself establish identity. To make a reliable connection to a specific person or organisation, we can use a persistent identifier.
+
+
+
+
+
+## References
+
+<!---
+style
+.lia-figure {
+  float: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+--->
+
+<div style="display: flex; align-items: flex-start; gap: 1em;">
+
+<div style="flex: 0 0 30%; min-width: 0;">
+
+![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+width="100%"-->
+
+</div>
+
+<div style="flex: 1; min-width: 0;">
+
+>[!NOTE] **OpenRefine – Further learning and resources**
+>
+>Here is a curated list of high-quality, freely available OER (Open Educational Resources) on OpenRefine suitable for training and self-study in data curation and biodiversity data:
+>
+>### Official and community-maintained resources
+>
+>- **[OpenRefine User Manual & External Resources](https://openrefine.org/docs)**
+>  - [External resources](https://openrefine.org/external_resources)
+>  - [GitHub – External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
+>  - Contains links to tutorials, cheatsheets, GREL recipes, and an extensive, language-sorted list of external materials.
+>
+>- **Using OpenRefine (free book)**
+>  - Verborgh, R., & De Wilde, M. (2013). *Using OpenRefine: The essential OpenRefine guide that takes you from data analysis and error fixing to linking your dataset to the Web*. Packt Publishing.
+>  - A practical textbook with examples on facets, clustering, transformations, and reconciliation.
+>  - [Available as PDF](https://www.gbif.es/wp-content/uploads/2018/01/Using-OpenRefineBook.pdf)
+>
+>### Structured online courses (OER, CC-licensed)
+>
+>- **[Library Carpentry: OpenRefine](https://librarycarpentry.github.io/lc-open-refine/)** (recommended as a standard introduction)
+>  - Duration: approx. 2 hours, self-paced, with exercises and sample datasets.
+>  - Target audience: librarians, data managers, curators – ideal for collection contexts.
+>
+>- **Data Carpentry / OpenRefine for various domains**
+>  - [Ecology](https://datacarpentry.github.io/OpenRefine-ecology-lesson/)
+>  - [Social Science](https://datacarpentry.github.io/openrefine-socialsci/)
+>  - Includes complete lessons with exercises, sample data, and solutions (“All in One View”).
+>
+>- **Programming Historian tutorials**
+>  - [Cleaning Data with OpenRefine](https://programminghistorian.org/lessons/cleaning-data-with-openrefine)
+>  - Fetching and Parsing Data from the Web with OpenRefine
+>  - Step-by-step guides using historical datasets, easily transferable to scientific metadata.
+>
+>- **WiNoDa**
+>  - Fichtmueller, D. (2025, November 25). *OpenRefine I: Cleaning Messy Data with Ease*. Zenodo. [https://doi.org/10.5281/zenodo.18712731](https://doi.org/10.5281/zenodo.18712731)
+>  - Botanic Garden and Botanical Museum Berlin. (2025). *OpenRefine Training Dataset based on a subset of the BGBM Herbarium (Version 1.0)* [Dataset]. Botanic Garden and Botanical Museum, Berlin. [https://doi.org/10.5281/zenodo.14918375](https://doi.org/10.5281/zenodo.14918375)
+>  - Set of presentation slides for an interactive workshop at the WiNoDa Winter School 2026 with exercises and solutions for the accompanying training dataset.
+>
+>- **WikiLearn courses (Wikimedia)**
+>  - [OpenRefine for Wikidata: the basics](https://learn.wiki/courses/course-v1:WikimediaFoundation+WMF_GLAM001+2024/about)
+>  - [OpenRefine for Wikimedia Commons: the basics](https://learn.wiki/courses/course-v1:Wikimedia-Foundation+WMF_GLAM001+2023/about)
+>  - Free, with quizzes and optional certificates; useful for reconciliation and upload workflows.
+>
+>### Practical tutorials & cheat sheets
+>
+>- **OpenRefine cheat sheets (PDF/print-ready)**
+>  - Overview of facets, clustering, GREL functions.
+>  - Good for use as training handouts.
+>
+>- **Help me, I’m covered in bees** – example of cleaning specimen data
+>  - Particularly relevant for biodiversity and museum data.
+>
+>- **Cornell LibGuides**
+>  - [Cornell University](https://guides.library.cornell.edu/dataden/openrefine)
+>  - [University of Illinois](https://guides.library.illinois.edu/openrefine/resources) – sample datasets.
+
+</div>
+</div>
