@@ -1949,7 +1949,7 @@ data-text-failed="Not quite. Automated methods can help identify possible entiti
 
 </section>
 
-# Part 2: *How* should we enrich data?
+# Part 2: *How* can we enrich data?
 
 @Kai_(```
 So, integrating complete datasets can be difficult because different datasets use different formats, terms, identifiers, and ways of describing the same things.
