@@ -195,18 +195,19 @@ __Learning Objectives for this course__
 
 ## Protagonists
 Let's introduce our protagonists - their questions and anwsers will guide you through this course:
-<div class=persona--kai>
-Kai, a collection curator at the Natural History Museum, wants to digitise his collections.
-</div>
-![Kai](images/Kai_protagonist.PNG)
-Dave, a Data Scientist at the museum, lends a lot of support and technical expertise for optimising digital workflows to this project.
-![Dave](images/Dave_protagonist.PNG)
-Susan, a distinguished entomologist, 
-![Susan](images/Susan_protagonist.PNG)
-and Anita, a graduate student in archaeobotany,
-![Anita](images/Anita_protagonist.PNG) work with data from the museum collection. They also support Kai’s digitisation project as taxonomic expert (Susan) and data entry staff (Anita).
-The team is backed up by Winnie, who works as a data steward at a data competency centre.
-![Winnie](images/Winnie_protagonist.PNG)
+
+![Kai](images/Kai_protagonist.PNG) Kai, a collection curator at the Natural History Museum, wants to digitise his collections.
+
+![Dave](images/Dave_protagonist.PNG) Dave, a Data Scientist at the museum, lends a lot of support and technical expertise for optimising digital workflows to this project.
+
+
+![Susan](images/Susan_protagonist.PNG) Susan, a distinguished entomologist, 
+
+![Anita](images/Anita_protagonist.PNG) and Anita, a graduate student in archaeobotany,work with data from the museum collection. 
+They also support Kai’s digitisation project as taxonomic expert (Susan) and data entry staff (Anita).
+
+![Winnie](images/Winnie_protagonist.PNG) The team is backed up by Winnie, who works as a data steward at a data competency centre.
+
 
 # Part 1: *Why* should we enrich data?
 ## 1. Data integration, enrichment and contextualisation  
