@@ -175,7 +175,7 @@ __Learning Objectives for this course__
 
 <!--- **LO-ID | Complete Learning Objective**  --->
 
-**Part 1: Why should we enrich data?**
+**Part 1: *Why* should we enrich data?**
 - **02\_011\_0412** | Learners are able to explain the term data integration.
 - **WiNoDa\_02\_011\_0417a** | Learners are able to explain goals **and benefits** of data integration.
 - **01\_001\_0157** | Learners are able to explain the application of open science practices in research.
@@ -186,7 +186,7 @@ __Learning Objectives for this course__
 - **02\_011\_0434** | Learners are able to explain data integration with heterogeneous data sources.
 
 
-**Part 2: How can we enrich data?**
+**Part 2: *How* can we enrich data?**
 - **WiNoDa\_02\_011\_0424a** | Learners are able to name **open online tools and services for data enrichment**.
 - **02\_011\_0426** | Learners are able to name software for data integration.
 - **03\_004\_0684** | Learners are able to apply persistent identifiers for referencing.
