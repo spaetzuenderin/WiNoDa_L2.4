@@ -132,8 +132,8 @@ The course language is English.
 
 ## Learning Objectives
 
-
-__Learning Objective Matrix on the Topic of Research Data Management (RDM)__
+<details>
+<summary>__Learning Objective Matrix on the Topic of Research Data Management (RDM)__</summary>
 
 The course creators of WiNoDa Knowledge lab used the **Learning Objective Matrix on the Topic of Research Data Management (RDM)** (from here on: LOM-RDM) as a basis the for the creation of OER. Learning objectives from the LOM-RDM can be identified by their unique identfier: Subject-ID_Topic-ID-sequential-number.
 
@@ -142,8 +142,10 @@ The course creators of WiNoDa Knowledge lab used the **Learning Objective Matrix
 > Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Learning Objectives Matrix on the Topic of Research Data Management (RDM). Zenodo. [https://doi.org/10.5281/zenodo.15846806](https://doi.org/10.5281/zenodo.15846806)
 
 ---
+</details>
 
-__WiNoDa specific adaptions__
+<details>
+<summary>__WiNoDa specific adaptions__</summary>
 
 Where necessary and appropriate, the generic learning objectives of the LOM-ROM where **adapted to fit the specific needs of the WiNoDa community,** i.e. researchers, collection managers and other persons working with object-related data from natural science collections and the history of the Earth and humanity. Adapted learning objectives received a new ID.  
 
@@ -169,9 +171,10 @@ Thus, the generic LOM-RDM remains a stable reference framework for the creation 
 > XXXX hier unsere LZM zitieren.
 
 ---
+</details>
 
-
-__Learning Objectives for this course__
+<details>
+<summary>__Learning Objectives for this course__</summary>
 
 <!--- **LO-ID | Complete Learning Objective**  --->
 
@@ -192,6 +195,7 @@ __Learning Objectives for this course__
 - **03\_004\_0684** | Learners are able to apply persistent identifiers for referencing.
 - **03\_005\_0704** | Learners are able to apply controlled vocabularies to describe resources.
 - **03\_005\_0721** | Learners are able to apply norm data.
+</details>
 
 ## Protagonists
 Let's introduce our protagonists - their questions and anwsers will guide you through this course:
