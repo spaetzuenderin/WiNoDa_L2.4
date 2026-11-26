@@ -217,7 +217,7 @@ They also support Kai’s digitisation project as taxonomic expert (Susan) and d
 ## 1. Data integration, enrichment and contextualisation  
 
 Kai, Susan, Anita, Dave and Winnie are meeting at the museum café.
-![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/1_Coffee-table.png) 
+![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](1_Coffee-table.png) 
 
 @Kai(```<p>I’ve been working with our collection data for years, but I keep running into the same problem. We have information about our specimens in our collection database, but there is also relevant information in taxonomic databases, authority files, observation databases and other sources.</p>
 <p> The problem is that these sources were created independently and use different structures, terms and identifiers. So although the information belongs together, it is difficult to connect the records and use all these sources together. I keep wondering: how can we bring these different sources together in a meaningful way?</p>```)
@@ -442,7 +442,7 @@ data-text-solved="Well done!"
 </section>
 
 ## 2. Goals and Benefits of Data Integration
-![Our protagonists sit around a table in the museum cafeteria. All of them have mugs or drinks. Winnie holds up her hand as if explaining something.](images/2_Coffee-table.png)
+![Our protagonists sit around a table in the museum cafeteria. All of them have mugs or drinks. Winnie holds up her hand as if explaining something.](images/1_Coffee-Round_Anita.png)
 @Anita(```I understand that by adding information we can enrich and contextualise data, but what are we trying to achieve? Do we simply want to put everything in one place?```)
 
 ### Goals
@@ -691,7 +691,7 @@ WiNoDa_02_011_0417a_Multiple-Choice_4 --->
 
 ## 3. Relation to Open Science practices
 
-![Our protagonists sit around a table in the museum cafeteria](images/3_Coffee-table.png)
+![Our protagonists sit around a table in the museum cafeteria](images/3_Coffee-Round_Kai.png)
 @Kai(```So, if integration makes existing data more useful to other researchers, what do we need to do to make that reuse possible?```)
 
 @Winnie_(```This is where **Open Science practices** become important. Data integration works best when research outputs are made accessible, understandable and reusable beyond the original project.```)
@@ -871,7 +871,7 @@ Why can sharing enriched data be described as “giving back” to the research 
 
 ## 4. Challenges in Data Integration
 
-![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/1_Coffee-table.png) 
+![Anita, Kai, Susan, Winnie and Dave are sitting around a table. They hold coffee mugs and there's a muffin on the table](images/4_Coffee-Round_Susan.png) 
 @Susan(```So we've talked about why data integration is useful and how Open Science practices can help. But it is probably not as easy as it sounds...```)
 
 ### Structural heterogeneity
@@ -1725,8 +1725,7 @@ data-text-failed="Not quite. A PID supports identification and linking, but it d
 
 ## 8. Integrating heterogeneous data sources
 
-### Challenges and approaches
-
+![Our protagonists sit around a table in the museum cafeteria. All of them have mugs or drinks. Winnie holds up her hand as if explaining something.](images/3_Coffee-Round_Kai.png)
 @Susan(```Datasets can differ in their structure, terminology, documentation and quality. <p class="persona__heading">How can we integrate data from such heterogeneous sources?</p>```)
 
 @Winnie_(```
@@ -1737,6 +1736,8 @@ data-text-failed="Not quite. A PID supports identification and linking, but it d
 
 <p>Integration does not necessarily mean copying all the information into one database. It means creating meaningful connections between the sources so that their information can be searched, compared or used together.</p>
 ```)
+
+### Connecting different sources
 
 @KaiH(```So the original data can remain in the systems where they are managed?```)
 
@@ -1760,6 +1761,7 @@ data-text-failed="Not quite. A PID supports identification and linking, but it d
 <p>**Meaning matters more than format.** Successful integration creates connections while preserving the meaning, context, provenance and relevant limitations of the original data.</p>
 ```)
 
+### Beyond shared data formats
 @SusanH(```So a common format can make data easier to exchange, but it does not automatically make the data meaningful together?```)
 
 @Winnie_(```<p>That is right.</p> <p>Aligning formats is useful, but it is only one part of integration. We also need to consider what the data describe, how they were created, how reliable or complete they are, and whether apparently similar concepts are genuinely comparable.</p> ```)
