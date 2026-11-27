@@ -959,7 +959,7 @@ style
 
 <div style="flex: 0 0 30%; min-width: 0;">
 
-![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+![Winnie sitting behind a blue desk with a lime-green telephone, holding the receiver. Above her is a large "i" in a circle](images/Info-Winnie.PNG)<!--
 width="100%"-->
 
 </div>
@@ -1528,7 +1528,7 @@ style
 
 <div style="flex: 0 0 30%; min-width: 0;">
 
-![Winnie standing under an information icon](images/Info-Winnie.PNG)<!--
+![Winnie sitting behind a blue desk with a lime-green telephone, holding the receiver. Above her is a large "i" in a circle](images/Info-Winnie.PNG)<!--
 width="100%"-->
 
 </div>
